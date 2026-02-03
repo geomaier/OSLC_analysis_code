@@ -18,3 +18,5 @@ outputs/
 # renv local library (keep renv.lock only)
 renv/library/
 renv/staging/
+
+config/config.R
