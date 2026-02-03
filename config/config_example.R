@@ -21,3 +21,5 @@ FILTER_multithread <- FALSE
 PACBIO_BAND_SIZE     <- 32
 LEARNERR_multithread <- TRUE
 ERROR_DEREP_FILES <- c("SAMPLE_A_derep.rds", "SAMPLE_B_derep.rds")
+
+DADA_multithread <- TRUE
