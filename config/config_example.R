@@ -26,3 +26,7 @@ DADA_multithread <- TRUE
 
 CHIMERA_method <- "consensus"
 CHIMERA_multithread <- TRUE
+
+SILVA_TRAIN_FA  <- "/path/to/silva_nr99_v138.1_train_set.fa.gz"
+SILVA_SPEC_FA   <- "/path/to/silva_species_assignment_v138.1.fa.gz"
+TAX_multithread <- TRUE
