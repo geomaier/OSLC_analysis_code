@@ -23,3 +23,6 @@ LEARNERR_multithread <- TRUE
 ERROR_DEREP_FILES <- c("SAMPLE_A_derep.rds", "SAMPLE_B_derep.rds")
 
 DADA_multithread <- TRUE
+
+CHIMERA_method <- "consensus"
+CHIMERA_multithread <- TRUE
