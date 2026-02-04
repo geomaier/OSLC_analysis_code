@@ -35,3 +35,12 @@ TAX_multithread <- TRUE
 METADATA_CSV        <- "/path/to/metadata.csv"
 METADATA_SAMPLE_COL <- "Old_Sample_Name"
 METADATA_PATCHES <- data.frame(from = character(0), to = character(0))
+
+NC_PATTERN1 <- "NC1"
+NC_PATTERN2 <- "NC2"
+MIN_READS_KEEP <- 1   # this keeps samples with >1 reads (i.e., drops 0 or 1)
+
+RAREFY_seed <- 123
+
+PREV_FRAC <- 0.05
+RAREFY_seed <- 123
