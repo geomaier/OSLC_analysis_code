@@ -30,3 +30,8 @@ CHIMERA_multithread <- TRUE
 SILVA_TRAIN_FA  <- "/path/to/silva_nr99_v138.1_train_set.fa.gz"
 SILVA_SPEC_FA   <- "/path/to/silva_species_assignment_v138.1.fa.gz"
 TAX_multithread <- TRUE
+
+
+METADATA_CSV        <- "/path/to/metadata.csv"
+METADATA_SAMPLE_COL <- "Old_Sample_Name"
+METADATA_PATCHES <- data.frame(from = character(0), to = character(0))
