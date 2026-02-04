@@ -44,3 +44,6 @@ RAREFY_seed <- 123
 
 PREV_FRAC <- 0.05
 RAREFY_seed <- 123
+
+ALPHA_GROUP_COL <- "New_Sample_Type"
+ALPHA_DOT_TO_HYPHEN <- FALSE
