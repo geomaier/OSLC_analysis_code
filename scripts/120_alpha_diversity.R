@@ -3,6 +3,46 @@
 # Alpha diversity: Observed, Chao1, Shannon, Simpson
 # Group pooling + pairwise LM vs H_COL baseline (adjusting for Reads)
 
+#!/usr/bin/env Rscript
+
+## =============================================================================
+## 120 — Alpha diversity (Observed, Chao1, Shannon, Simpson)
+##
+## Purpose
+##   Compute alpha diversity metrics from a phyloseq object and compare groups
+##   using pairwise linear models versus a healthy colon baseline, adjusting for
+##   sequencing depth (Reads).
+##
+## Key processing steps
+##   - Compute alpha diversity: Observed, Chao1, Shannon, Simpson
+##   - Attach per-sample read depth (Reads)
+##   - Pool sample types into analysis groups (SSL+HP; H_ADJ_SSL+H_ADJ_HP)
+##   - Use H_COL (H_COL_ND only) as baseline; drop H_COL_D from analyses
+##   - For each metric: fit pairwise LM (metric ~ Group + Reads) vs baseline and
+##     annotate significance stars on boxplots
+##
+## Output
+##   - One PNG per metric + CSV of plotted table (for traceability)
+##
+## Configuration
+##   - Paths and analysis parameters are read from config/config.yml
+##
+## Requirements
+##   - phyloseq object with sample_data column defined by `alpha.group_col`
+## =============================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
 suppressPackageStartupMessages({
   library(phyloseq)
   library(ggplot2)
