@@ -2,10 +2,13 @@
 # Copy this file to config/config.R and edit paths locally.
 # Do NOT commit config/config.R (it contains private paths).
 
-# Paths (examples)
-PATH_RAW_FASTQ <- "/path/to/raw_fastq_on_cluster"
-PATH_WORK      <- "/path/to/workdir_on_cluster"
-PATH_FILT      <- file.path(PATH_WORK, "filterandtrimmed_final")
+PATH_WORK <- "/path/to/work_directory"
+
+PATH_RAW_FASTQ_NOV2025 <- "/path/to/pooled_host_filtered_fastq"
+PATH_FILT_NOV2025 <- file.path(PATH_WORK, "filterandtrimmed_final")
+
+PATH_RAW_FASTQ <- file.path(PATH_WORK, "filterandtrimmed_final_March26")
+PATH_FILT <- file.path(PATH_WORK, "filterandtrimmed_final_March26_filtered")
 
 # FilterAndTrim parameters (examples)
 FILTER_truncLen    <- 0
