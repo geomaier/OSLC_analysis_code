@@ -10,7 +10,7 @@ PATH_FILT_NOV2025 <- file.path(PATH_WORK, "filterandtrimmed_final")
 PATH_RAW_FASTQ <- file.path(PATH_WORK, "filterandtrimmed_final_March26")
 PATH_FILT <- file.path(PATH_WORK, "filterandtrimmed_final_March26_filtered")
 
-# FilterAndTrim parameters (examples)
+# FilterAndTrim parameters
 FILTER_truncLen    <- 0
 FILTER_minQ        <- 3
 FILTER_minLen      <- 1000
@@ -20,24 +20,28 @@ FILTER_maxEE       <- 2
 FILTER_rm_phix     <- FALSE
 FILTER_multithread <- FALSE
 
-# Error model learning (examples)
+# Error model learning
 PACBIO_BAND_SIZE     <- 32
 LEARNERR_multithread <- TRUE
-ERROR_DEREP_FILES <- c("SAMPLE_A_derep.rds", "SAMPLE_B_derep.rds")
+ERROR_DEREP_FILES <- c(
+  "B3-HP_TRVS_7241_filt_derep.rds",
+  "B4-H_ADJ_DESC_1554_filt_derep.rds",
+  "B5-H_COL_TRVS_7852_filt_derep.rds",
+  "B2-SSL_SIG_7154_filt_derep.rds"
+)
 
 DADA_multithread <- TRUE
 
 CHIMERA_method <- "consensus"
 CHIMERA_multithread <- TRUE
 
-SILVA_TRAIN_FA  <- "/path/to/silva_nr99_v138.1_train_set.fa.gz"
-SILVA_SPEC_FA   <- "/path/to/silva_species_assignment_v138.1.fa.gz"
+SILVA_TRAIN_FA <- file.path(PATH_WORK, "silva_nr99_v138.1_train_set.fa.gz")
+SILVA_SPEC_FA <- file.path(PATH_WORK, "silva_species_assignment_v138.1.fa.gz")
 TAX_multithread <- TRUE
 
 
-METADATA_CSV        <- "/path/to/metadata.csv"
-METADATA_SAMPLE_COL <- "Old_Sample_Name"
-METADATA_PATCHES <- data.frame(from = character(0), to = character(0))
+METADATA_CSV <- file.path(PATH_WORK, "Final_Metadata_Table_16S_March26_cleaned.csv")
+METADATA_SAMPLE_COL <- "Sample_clean"
 
 NC_PATTERN1 <- "NC1"
 NC_PATTERN2 <- "NC2"
@@ -48,5 +52,5 @@ RAREFY_seed <- 123
 PREV_FRAC <- 0.05
 RAREFY_seed <- 123
 
-ALPHA_GROUP_COL <- "New_Sample_Type"
+ALPHA_GROUP_COL <- "Sample_Type"
 ALPHA_DOT_TO_HYPHEN <- FALSE

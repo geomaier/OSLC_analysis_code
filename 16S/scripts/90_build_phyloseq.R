@@ -16,7 +16,10 @@ stopifnot(file.exists(seqtab_f), file.exists(tax_f), file.exists(meta_f))
 
 seqtab <- readRDS(seqtab_f)
 taxa   <- readRDS(tax_f)
-meta   <- fread(meta_f)
+meta   <- as.data.frame(fread(meta_f))
+
+stopifnot(!anyDuplicated(colnames(seqtab)), !anyDuplicated(rownames(taxa)))
+stopifnot(all(colnames(seqtab) %in% rownames(taxa)))
 
 # Align ASVs
 common_asvs <- intersect(colnames(seqtab), rownames(taxa))
@@ -25,16 +28,21 @@ taxa   <- taxa[common_asvs, , drop = FALSE]
 stopifnot(all(colnames(seqtab) == rownames(taxa)))
 
 # Align samples
-meta <- meta[meta[[METADATA_SAMPLE_COL]] %in% rownames(seqtab), ]
-meta <- meta[match(rownames(seqtab), meta[[METADATA_SAMPLE_COL]]), ]
+stopifnot(METADATA_SAMPLE_COL %in% names(meta))
+stopifnot(!anyNA(meta[[METADATA_SAMPLE_COL]]))
+stopifnot(!anyDuplicated(meta[[METADATA_SAMPLE_COL]]), !anyDuplicated(rownames(seqtab)))
+stopifnot(all(rownames(seqtab) %in% meta[[METADATA_SAMPLE_COL]]))
+meta <- meta[meta[[METADATA_SAMPLE_COL]] %in% rownames(seqtab), , drop = FALSE]
+meta <- meta[match(rownames(seqtab), meta[[METADATA_SAMPLE_COL]]), , drop = FALSE]
 stopifnot(all(meta[[METADATA_SAMPLE_COL]] == rownames(seqtab)))
 rownames(meta) <- meta[[METADATA_SAMPLE_COL]]
 
 physeq <- phyloseq(
   otu_table(seqtab, taxa_are_rows = FALSE),
   tax_table(as.matrix(taxa)),
-  sample_data(as.data.frame(meta))
+  sample_data(meta)
 )
+physeq <- prune_taxa(taxa_sums(physeq) > 0, physeq)
 
 out_rds <- file.path("outputs", "phyloseq_raw.rds")
 saveRDS(physeq, out_rds)
