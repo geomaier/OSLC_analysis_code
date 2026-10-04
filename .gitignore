@@ -20,3 +20,4 @@ renv/library/
 renv/staging/
 
 config/config.R
+16S/config/config.R
