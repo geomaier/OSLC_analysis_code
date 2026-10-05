@@ -1,5 +1,4 @@
 #!/usr/bin/env Rscript
-# scripts/30_learn_errors.R
 
 suppressPackageStartupMessages({
   library(dada2)
@@ -32,7 +31,7 @@ dir.create(file.path("outputs", "qc"), recursive = TRUE, showWarnings = FALSE)
 saveRDS(err, file.path("outputs", "qc", "error_model_PacBio.rds"))
 
 png(file.path("outputs", "qc", "error_plot.png"), width = 1200, height = 800)
-plotErrors(err, nominalQ = TRUE)
+print(plotErrors(err, nominalQ = TRUE))
 dev.off()
 
 cat("Saved outputs/qc/error_model_PacBio.rds\n")

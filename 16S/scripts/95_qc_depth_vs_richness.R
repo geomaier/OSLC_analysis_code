@@ -1,5 +1,4 @@
 #!/usr/bin/env Rscript
-# scripts/95_qc_depth_vs_richness.R
 
 suppressPackageStartupMessages({
   library(phyloseq)

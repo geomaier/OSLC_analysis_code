@@ -1,5 +1,4 @@
 #!/usr/bin/env Rscript
-# scripts/50_make_seqtab_nochim.R
 
 suppressPackageStartupMessages({
   library(dada2)

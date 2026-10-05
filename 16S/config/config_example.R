@@ -1,6 +1,4 @@
-# config/config_example.R
-# Copy this file to config/config.R and edit paths locally.
-# Do NOT commit config/config.R (it contains private paths).
+# Copy to config/config.R and set the local data paths.
 
 PATH_WORK <- "/path/to/work_directory"
 
@@ -45,12 +43,12 @@ METADATA_SAMPLE_COL <- "Sample_clean"
 
 NC_PATTERN1 <- "NC1"
 NC_PATTERN2 <- "NC2"
-MIN_READS_KEEP <- 1   # this keeps samples with >1 reads (i.e., drops 0 or 1)
+MIN_READS_KEEP <- 1   # Samples must have more than this number of reads.
 
 RAREFY_seed <- 123
 
 PREV_FRAC <- 0.05
-RAREFY_seed <- 123
 
-ALPHA_GROUP_COL <- "Sample_Type"
-ALPHA_DOT_TO_HYPHEN <- FALSE
+# Existing count exports used by script 143.
+BETA_ASV_EXPORT_DIR <- file.path(PATH_WORK, "Beta_diversity_BrayCurtis_ASV_FINAL")
+BETA_GENUS_EXPORT_DIR <- file.path(PATH_WORK, "Beta_diversity_BrayCurtis_Genus_FINAL")

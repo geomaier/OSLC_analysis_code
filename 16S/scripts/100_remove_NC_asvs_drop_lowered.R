@@ -1,5 +1,4 @@
 #!/usr/bin/env Rscript
-# scripts/100_remove_NC_asvs_drop_lowered.R
 
 suppressPackageStartupMessages({
   library(phyloseq)
@@ -16,6 +15,7 @@ samps <- sample_names(phy)
 nc_idx <- grepl(NC_PATTERN1, samps, fixed = TRUE) | grepl(NC_PATTERN2, samps, fixed = TRUE)
 nc_samples <- samps[nc_idx]
 pc_samples <- samps[grepl("PC", samps, fixed = TRUE)]
+if (length(nc_samples) == 0L) stop("No negative controls matched the configured sample-name patterns.")
 
 cat("NC samples detected: ", length(nc_samples), "\n", sep = "")
 if (length(nc_samples) > 0) print(nc_samples)
@@ -58,7 +58,7 @@ for (branch in c("keep7699", "without7699")) {
   samples_to_remove <- unique(samples_to_remove)
   phy_branch <- prune_samples(!(sample_names(phy) %in% samples_to_remove), phy)
   phy_branch <- prune_taxa(taxa_sums(phy_branch) > 0, phy_branch)
-  
+
   out_f <- file.path(
     "outputs",
     paste0("phyloseq_March26_prevalence_unfiltered_biological_", branch, ".rds")
@@ -69,11 +69,11 @@ for (branch in c("keep7699", "without7699")) {
     file.path("outputs", paste0("removed_specific_samples_", branch, ".csv")),
     row.names = FALSE
   )
-  
+
   if (branch == "without7699") {
     saveRDS(phy_branch, file.path("outputs", "phyloseq_noNC_dropLowRead.rds"))
   }
-  
+
   cat("Saved: ", out_f, "\n", sep = "")
   cat("Samples: ", nsamples(phy_branch), " | ASVs: ", ntaxa(phy_branch), "\n", sep = "")
 }

@@ -1,5 +1,4 @@
 #!/usr/bin/env Rscript
-# scripts/90_build_phyloseq.R
 
 suppressPackageStartupMessages({
   library(phyloseq)

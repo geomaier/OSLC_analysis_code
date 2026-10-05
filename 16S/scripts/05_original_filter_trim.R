@@ -34,4 +34,5 @@ filtered <- filterAndTrim(
   multithread = FILTER_multithread
 )
 
+write.csv(filtered, file.path(PATH_FILT_NOV2025, "filtering_summary.csv"))
 print(filtered)

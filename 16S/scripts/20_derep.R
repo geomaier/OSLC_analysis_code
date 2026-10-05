@@ -1,11 +1,12 @@
 #!/usr/bin/env Rscript
-# scripts/20_derep.R
 
 suppressPackageStartupMessages({
   library(dada2)
 })
 
 source("config/config.R")
+
+set.seed(1)
 
 # Uses filtered FASTQs produced by scripts/10_filter_trim.R
 stopifnot(dir.exists(PATH_FILT))

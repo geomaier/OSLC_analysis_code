@@ -1,5 +1,4 @@
 #!/usr/bin/env Rscript
-# scripts/70_clean_seqtab_sample_names.R
 
 source("config/config.R")
 

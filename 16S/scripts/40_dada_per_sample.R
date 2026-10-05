@@ -1,5 +1,4 @@
 #!/usr/bin/env Rscript
-# scripts/40_dada_per_sample.R
 
 suppressPackageStartupMessages({
   library(dada2)
@@ -31,25 +30,25 @@ set.seed(1)
 for (i in seq_along(derep_files)) {
   sname    <- sample_names[i]
   out_file <- file.path(dada_dir, paste0(sname, "_dada.rds"))
-  
+
   if (file.exists(out_file)) {
     cat("Skipping ", i, "/", length(derep_files), ": ", sname, " (already exists)\n", sep = "")
     next
   }
-  
+
   cat("Running dada ", i, "/", length(derep_files), ": ", sname, "\n", sep = "")
-  
+
   drp <- readRDS(derep_files[i])
-  
+
   dds <- dada(
     drp,
     err         = err,
     BAND_SIZE   = PACBIO_BAND_SIZE,
     multithread = DADA_multithread
   )
-  
+
   saveRDS(dds, out_file)
-  
+
   rm(drp, dds)
   gc()
 }

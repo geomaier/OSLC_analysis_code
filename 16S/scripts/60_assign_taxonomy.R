@@ -1,5 +1,4 @@
 #!/usr/bin/env Rscript
-# scripts/60_assign_taxonomy.R
 
 suppressPackageStartupMessages({
   library(dada2)
