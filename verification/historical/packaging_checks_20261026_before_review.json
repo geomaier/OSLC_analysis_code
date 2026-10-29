@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-26",
+  "R_statistical_execution_performed": false,
+  "line_endings_normalised": [
+    "16S/scripts/10_filter_trim.R",
+    "Organoid_Bulk_RNAseq/provenance/FINAL_SSL_METAPLASIA_LIST.txt",
+    "Organoid_Bulk_RNAseq/provenance/RNAseq_sessionInfo.txt",
+    "Organoid_Bulk_RNAseq/provenance/concordance_sessionInfo.txt",
+    "Organoid_Bulk_RNAseq/provenance/passage_sessionInfo.txt",
+    "Organoid_Bulk_RNAseq/provenance/qPCR_sessionInfo.txt",
+    "Tissue_Bulk_RNAseq/provenance/bacterial_package_versions.csv",
+    "Tissue_Bulk_RNAseq/provenance/braf_overall_package_versions.csv",
+    "Tissue_Bulk_RNAseq/provenance/external_validation_package_versions.csv"
+  ],
+  "source_function_comparisons": [
+    {
+      "source": "170_species_analysis_ALL_PROFILES_FINAL.R",
+      "prepared": "16S/scripts/170_species_analysis.R",
+      "shared_named_functions": 45,
+      "changed_function_bodies": [],
+      "unmatched_names": []
+    },
+    {
+      "source": "Chapters_5_and_6_Volcano_Legend_Fix.R",
+      "prepared": "Organoid_Bulk_RNAseq/reviewed/06_volcano_legend_layout.R",
+      "shared_named_functions": 3,
+      "changed_function_bodies": [],
+      "unmatched_names": []
+    },
+    {
+      "source": "Figure_6_2_Antrum.R",
+      "prepared": "Tissue_Bulk_RNAseq/scripts/115_braf_status_figure.R",
+      "shared_named_functions": 1,
+      "changed_function_bodies": [],
+      "unmatched_names": []
+    },
+    {
+      "source": "Pasted text(20261020-075503).txt",
+      "prepared": "16S/scripts/180_supplementary_mixed_models.R",
+      "shared_named_functions": 23,
+      "changed_function_bodies": [],
+      "unmatched_names": []
+    }
+  ],
+  "alpha_calculation_tokens_match_final_source": true,
+  "SF5_6C_all_aggregate_fields_preserved_except_source_directory": true,
+  "submitted_alpha_age_table_rows_agree": 9,
+  "tree_sitter": {
+    "version": "0.9.0",
+    "R_files": 55,
+    "failures": []
+  },
+  "shell_syntax": [
+    {
+      "path": "upstream_provenance/read_processing/check_strandedness.sh",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "path": "upstream_provenance/read_processing/collate_featureCounts.sh",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "path": "upstream_provenance/read_processing/collate_picard.sh",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "path": "upstream_provenance/read_processing/launch_check_strandedness.sh",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "path": "upstream_provenance/read_processing/launch_tma_collate.sh",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "path": "upstream_provenance/read_processing/launch_trim_map_assign.sh",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "path": "upstream_provenance/read_processing/trim_map_assign.sh",
+      "exit_code": 0,
+      "stderr": ""
+    }
+  ],
+  "python_parse": [
+    "tools/check_file_integrity.py"
+  ],
+  "broken_local_documentation_links": [],
+  "targeted_privacy_scan": {
+    "prohibited_input_or_state_files": [],
+    "recognised_credential_patterns": [],
+    "personal_machine_paths_in_R_or_shell": [],
+    "limits": "This is a targeted scan, not a clinical de-identification or redistribution authorisation. Existing pseudonymous selection IDs and original contributor credits remain."
+  },
+  "base_candidate_R_files_unchanged_after_newline_normalisation": 46,
+  "base_candidate_R_files_changed": [
+    "16S/scripts/170_species_analysis.R",
+    "Tissue_Bulk_RNAseq/scripts/060_bacterial_detection_gsea.R",
+    "Tissue_Bulk_RNAseq/scripts/070_braf_es_gsea.R",
+    "Tissue_Bulk_RNAseq/scripts/065_braf_overall_gsea.R",
+    "Tissue_Bulk_RNAseq/scripts/020_pathway_gsea.R",
+    "Tissue_Bulk_RNAseq/scripts/050_external_signature_validation.R"
+  ],
+  "R_parse_report": "r_parse_and_self_test_20261026.json"
+}

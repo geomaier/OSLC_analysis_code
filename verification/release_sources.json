@@ -1,0 +1,81 @@
+{
+  "prepared": "2026-10-19",
+  "base_bundle": "OSLC_analysis_code.zip (10 October 2026)",
+  "sources": [
+    {
+      "source_filename": "RUN_BETA_FINAL_PATIENT_LEVEL.R",
+      "source_sha256": "b46fad3b811f01ea9e6f9cd9b9b0b24066e3d036ab17ef266eee8105ea1b15d5",
+      "release_path": "16S/scripts/144_beta_final.R",
+      "changes": [
+        "Require BETA_WORK_DIR instead of the author-specific default path; all named function bodies retained."
+      ]
+    },
+    {
+      "source_filename": "Clinical_Age_Corrected_Full_Analysis.R",
+      "source_sha256": "f1d52a6ca424f2494508634ac74d1b287b38f9f1863bebf16477fff12e4d4956",
+      "release_path": "Tissue_Bulk_RNAseq/scripts/110_clinical_host_scores.R",
+      "changes": [
+        "Use current corrected-age source; replace local path settings with arguments/environment variables.",
+        "Move 63 age-validation records into private clinical_age_validation.csv; preserve the original cohort and age checks.",
+        "All code following the original cohort-validation statement is unchanged.",
+        "Retain the external age-validation CSV beside the master CSV in each private run snapshot."
+      ]
+    },
+    {
+      "source_filename": "Chapter4_Alpha_Age_Corrected.R",
+      "source_sha256": "0c882bfce2d6ec272529fa7aecac9c9e527ffd3086b13c381e3668433590dfe5",
+      "release_path": "16S/scripts/181_alpha_age_corrected.R",
+      "changes": [
+        "Externalise the original 64-row input, corrected 64-row age key, and nine previous sensitivity results into separate private CSVs.",
+        "Use ALPHA_AGE_INPUT_DIR and ALPHA_AGE_OUTPUT_DIR for paths.",
+        "All code from the original required-column/cohort checks onward is unchanged; R execution remains pending."
+      ]
+    },
+    {
+      "source_filename": "reporting_corrections.R",
+      "source_sha256": "ea44ed5e498e80a0802618103ae59c5b541babe75cc586312bf137f224734e02",
+      "release_path": "16S/R/reporting_corrections.R",
+      "changes": [
+        "Copied without edits."
+      ]
+    },
+    {
+      "source_filename": "176_reporting_corrections.R",
+      "source_sha256": "6bba3ab7bb37c7d49f93360740e9f543c615f2bd66bcf9b6ddd5d4cd05b170e3",
+      "release_path": "16S/scripts/176_reporting_corrections.R",
+      "changes": [
+        "Copied without edits."
+      ]
+    },
+    {
+      "source_filename": "rarefaction_QC_final.R",
+      "source_sha256": "bb2db2c8ad973b3b90ca2f4ae5a62fec389cee6489afc21426d9be66d348949b",
+      "release_path": "16S/scripts/096_rarefaction_QC.R",
+      "changes": [
+        "Replace two local path defaults with environment variables; retain all QC calculations."
+      ]
+    },
+    {
+      "source_filename": "02_Passage_GSEA.R",
+      "source_sha256": "b81051c2fed8a31f64df056a2bcc8b8ab33aa1c3727c56dceee13b800e4be871",
+      "release_path": "Organoid_Bulk_RNAseq/reviewed/02_Passage_GSEA.R",
+      "changes": [
+        "Missing packages now stop with instructions instead of triggering installation; calculations unchanged."
+      ]
+    },
+    {
+      "source_filename": "030_pathway_figures.R",
+      "source_sha256": "ff4310ad205d354c66d5fe47cd9d8e4ee35912e42cac7eb8520ce672ca9fb714",
+      "release_path": "Tissue_Bulk_RNAseq/scripts/030_pathway_figures.R",
+      "changes": [
+        "Missing packages now stop with instructions instead of triggering installation; plotting functions unchanged."
+      ]
+    }
+  ],
+  "removed_from_public_tree": [
+    "16S/scripts/.Rhistory",
+    "16S/scripts/143_beta_patient_check.R",
+    "FILE_MANIFEST.json"
+  ],
+  "note": "No statistical run or GitHub publication was performed while assembling this candidate."
+}

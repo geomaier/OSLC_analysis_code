@@ -1,22 +1,29 @@
-# R / RStudio
+# Private study inputs and all generated results
+private_inputs/
+PRIVATE*/
+data/
+outputs/
+results/
+**/config/config.R
+**/config.local.R
+**/analysis_paths.R
+**/analysis_paths.local.R
+.Renviron
+.Renviron.*
 .Rhistory
 .RData
 .Rproj.user/
-*.Rproj
-
-# outputs + big data should not be tracked
-outputs/
-*.fastq
-*.fastq.gz
-*.fq.gz
-
-# common large refs (don’t commit)
-*.fa
-*.fasta
-*.fa.gz
-
-# renv local library (keep renv.lock only)
-renv/library/
-renv/staging/
-
-config/config.R
+.DS_Store
+__pycache__/
+*.pyc
+*.rds
+*.RDS
+*.rda
+*.RData
+*.fastq*
+*.fq*
+*.bam
+*.cram
+*.bai
+*.zip
+# Do not place clinical CSV/XLSX tables anywhere else in the repository.

@@ -1,0 +1,23 @@
+[
+  {
+    "comparison": "H_ADJ_SSL_HP_vs_H_COL",
+    "taxa": 43,
+    "convergence_false": 0,
+    "convergence_unavailable": 13,
+    "significant_without_confirmed_convergence": 0
+  },
+  {
+    "comparison": "SSL_HP_vs_H_ADJ_SSL_HP",
+    "taxa": 48,
+    "convergence_false": 0,
+    "convergence_unavailable": 0,
+    "significant_without_confirmed_convergence": 0
+  },
+  {
+    "comparison": "SSL_HP_vs_H_COL",
+    "taxa": 48,
+    "convergence_false": 0,
+    "convergence_unavailable": 7,
+    "significant_without_confirmed_convergence": 0
+  }
+]

@@ -1,0 +1,10 @@
+project_id: CGG014_Maier
+species: GRCh38.113
+genome_reference: /well/bsg/projects/resources/RNA_pipeline/genomes/GRCh38.113
+count_table: ../RNA_pipeline/output/count_table.txt
+summary_table: ../RNA_pipeline/output/assignment_summary_table.txt
+duplication_table: ../RNA_pipeline/output/duplication_metrics.txt
+metrics_table: ../RNA_pipeline/output/rna_metrics.txt
+report_template: INTERNAL
+biotype_conversion: INTERNAL
+ercc_concentrations: None

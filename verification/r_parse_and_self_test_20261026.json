@@ -1,0 +1,350 @@
+{
+  "date": "2026-10-26",
+  "runtime": "webR 0.6.0",
+  "R_version": "R version 4.6.0 (2026-04-24)",
+  "R_parse_performed": true,
+  "R_statistical_execution_performed": false,
+  "files": [
+    {
+      "path": "16S/R/reporting_corrections.R",
+      "sha256": "ea44ed5e498e80a0802618103ae59c5b541babe75cc586312bf137f224734e02",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/config/config_example.R",
+      "sha256": "886ff7504ea145461f849d3af43ffd404b3647b92772510266a9bc2e6803f67f",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": false
+    },
+    {
+      "path": "16S/scripts/05_original_filter_trim.R",
+      "sha256": "32ebca1d69bd9a48b68413f163a359fac043dce811682f889ea71381398521de",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/scripts/096_rarefaction_QC.R",
+      "sha256": "47f090375a54f1b50f5aed9d00f25894f619fd89b21bdab79383e94dfcbacae7",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/scripts/100_remove_NC_asvs_drop_lowered.R",
+      "sha256": "60edcc240f1f28fa954ee28ba471b30f1c5ed6643a00a865d592e53d5a1d2dab",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/scripts/105_rarefy_deep_samples_95pct.R",
+      "sha256": "1b37b1f5ee489f93dcefd5b7578bb32626d3bf4a24cfd943d10331983600154d",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/scripts/10_filter_trim.R",
+      "sha256": "81caa6c4e10edd3f15a1d15530e217a8a1a267453129d321f73739ba1531004f",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/scripts/110_prevalence_filter_5pct.R",
+      "sha256": "3a2a463b30ff3393c9545fd9789e14fcc389678cf8611c174c1a163662db548f",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/scripts/120_alpha_diversity.R",
+      "sha256": "1e4128cd3ce575a8e89e1eda16fec5f7901c7075d67f5040cfc721ec9d6d937c",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": false
+    },
+    {
+      "path": "16S/scripts/130_relative_abundance_plot.R",
+      "sha256": "81468f17eae0007f6e8630d3653059e1767506a2995610cad057438849424b88",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/scripts/144_beta_final.R",
+      "sha256": "0580618f09f80907818c22df3309e3812a983ede8a685deba2ec85e1c1c8ac53",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/scripts/150_clr_code.R",
+      "sha256": "64fc347cf76a79b50c03e5b84c39776c22d78a3cfc3336265b553f3a02c46f09",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/scripts/160_deseq2_volcano_all_comparisons.R",
+      "sha256": "4e02671d8671e334ec99d61302cbeab83f10e483c9f641a9d080fd5b6fdbf6dc",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": false
+    },
+    {
+      "path": "16S/scripts/161_genus_ancombc2.R",
+      "sha256": "bdc0c0757a31fd1c041161e832408e9328f2de5f8cc5cc490fe55997f9d47e9c",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/scripts/162_ancombc2_forest_plot.R",
+      "sha256": "315d1a5faa8cecb7681108191b65b82b89eeac0a8a1aa14727122be8a3ca4def",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/scripts/170_species_analysis.R",
+      "sha256": "07acdd9de918ba54f9d0b3e43e83186b84a8b04a17d6a2adb1810654101d3223",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/scripts/175_matched_analysis.R",
+      "sha256": "6cb8190ade4b7a53e03dacc2bdd953c53d6f6282fbec9b1aa0c7bd3fcedfe42a",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": false
+    },
+    {
+      "path": "16S/scripts/176_reporting_corrections.R",
+      "sha256": "6bba3ab7bb37c7d49f93360740e9f543c615f2bd66bcf9b6ddd5d4cd05b170e3",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/scripts/180_supplementary_mixed_models.R",
+      "sha256": "57b7ba0f1b69751fad6146eb3a4bbc2078671e4369c2e67e79512e9a666d5a7e",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/scripts/181_alpha_age_corrected.R",
+      "sha256": "927bffb121a30b157eecbe7829a28e9e8d39bd51c350a99e331448ba19f6da58",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": false
+    },
+    {
+      "path": "16S/scripts/20_derep.R",
+      "sha256": "e7f6931667528213393b722ea3455393e405064994c101a19962ad0ecafd87f2",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/scripts/30_learn_errors.R",
+      "sha256": "edf7b776a34be6bbc3c65f9df15181678e302cc34e0c7818c1ebacd0a69fd41e",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/scripts/40_dada_per_sample.R",
+      "sha256": "81b8a15682953b36e3de5ff5a192913d6c0b28379aec418fdcb2606056d6ab1e",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/scripts/50_make_seqtab_nochim.R",
+      "sha256": "52b1287a74a7706d96bc16763b9a087e980896635a8b527a478fcab5cfe5c411",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/scripts/60_assign_taxonomy.R",
+      "sha256": "52fdb5da43fa3139b2b41d757516ef1de46b400d35be369ecd2828d2dc6541d0",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/scripts/70_clean_seqtab_sample_names.R",
+      "sha256": "49a3ac46b101f9e3d73221a9b952412b400fc2ba8dd33a3cd93688fbdc7edf87",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/scripts/80_fix_metadata_names.R",
+      "sha256": "5809fe9d9f94ba4335ae884734da20cbc169615a698893d1c7200c255c548fd6",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": false
+    },
+    {
+      "path": "16S/scripts/90_build_phyloseq.R",
+      "sha256": "74a8670d7adf0b9cce1bbda5b270964f96c7f015c410ec6dd5dda98d57f7d08d",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "16S/scripts/95_qc_depth_vs_richness.R",
+      "sha256": "41fdf48176c1099c38386d3a744a28beb2820daa12e5de24fb1ece494c6eb5b4",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "Organoid_Bulk_RNAseq/reviewed/01_Organoid_RNAseq.R",
+      "sha256": "aecf546e4f933004023fb8af0fdc32dffb5838875d44ee95b5d253325769628a",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "Organoid_Bulk_RNAseq/reviewed/02_Passage_GSEA.R",
+      "sha256": "6888cb5e197c6193ab164becb3a63b6c689bc773dcf09a9670dae563c89bb737",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "Organoid_Bulk_RNAseq/reviewed/03_MUC5AC_qPCR.R",
+      "sha256": "bff1909efdb90765b4791c83648356cc29618b1bda27c741a2700f865451b663",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": false
+    },
+    {
+      "path": "Organoid_Bulk_RNAseq/reviewed/04_Concordance.R",
+      "sha256": "e0b63c47b12ac9b679f56b75385953c118fa0cb8afc5b054cc98935e72523fe5",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "Organoid_Bulk_RNAseq/reviewed/05_SF5_6C_early_passage_labels.R",
+      "sha256": "28b522e322423ccf62b73f75d3df4ff8a713c34b0a5d8136cc3e539db9a74d40",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "Organoid_Bulk_RNAseq/reviewed/06_volcano_legend_layout.R",
+      "sha256": "33c1b8585ae8289675bd61ff5d563ef3f4325146294836c68a6440273c4419c6",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/config/config.example.R",
+      "sha256": "9199f4056169ba7d1a1bd6cdc955320a845f555decc2322e8755b678c2aa520f",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/010_tissue_pca.R",
+      "sha256": "2956e85dde75d87ae30f930248ea5328a86d4a81cafcc61626d22599f716aadf",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/020_pathway_gsea.R",
+      "sha256": "5f45f229f69b5929023358231935da8d9cb84899dfb90f91d7d11a2e5aefb865",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/030_pathway_figures.R",
+      "sha256": "ab7a2307ecc78b222ce4288d573f57e43129389e2918c606a4b7d7246d61d6e9",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/040_gastric_signature_and_scores.R",
+      "sha256": "f3136f9f34f5f869c9f9e1f56bfe73163662f727de00b6c1ea5a5af426f24126",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": false
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/045_signature_threshold_sensitivity.R",
+      "sha256": "0c1465925b39af897d89d34e2a7e13e43ecd484a5de569f9bed72f65950e14b3",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/050_external_signature_validation.R",
+      "sha256": "0dc419461cdc78bde8c1a8bc63304a08af562890a83c92413840224ac28e2d5b",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/060_bacterial_detection_gsea.R",
+      "sha256": "1b094ccd32a48a509bb18974630a34b9036b3a46dc2c652ac130829f648c92dc",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/065_braf_overall_gsea.R",
+      "sha256": "44c60ef85e3fa7027a2038a4ba2ca5cc866ffdede16f4818b0322e3f12760c10",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/070_braf_es_gsea.R",
+      "sha256": "3bef3c07f15fd5608b1eb7005da698ca648f2b20b258b393468c1203f42811c9",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/080_tissue_MUC5AC_qPCR.R",
+      "sha256": "7c14372c117585c5688c28a5b7cd9019683523c2f5d1622ea0435811eac02cc4",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/090_complete_score_analysis.R",
+      "sha256": "da32d1a22ff69bd19efbec8a295ad8e673cb305af2361a4aaee6267e0da7ceda",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/110_clinical_host_scores.R",
+      "sha256": "61458be2272610e86089847122bb3623f391f60c4f6ee162246637384a4d88dc",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/115_braf_status_figure.R",
+      "sha256": "91d52fcec7b5708a029db7fe694bd9ad80cd2f34fd560c98757179ba77142f49",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "tools/check_R_syntax.R",
+      "sha256": "9c30c76b9fc3d1a39a5d2b6421012a99797822efd575df38ff79975c14da5dac",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "tools/check_reporting_logic.R",
+      "sha256": "2dd2ffdeac8e815a81627cecf9dec201ece0ac9273687604f72f3d04d6d786a9",
+      "status": "PASS"
+    },
+    {
+      "path": "upstream_provenance/organoid/CGG028_analysis.R",
+      "sha256": "35a0a4251182b3cebde04a5e5d6a8a7e27e5e11cdd683436ad98a8fbab72dfda",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "upstream_provenance/organoid/edgeR_Analysis.R",
+      "sha256": "72dea8285baa98dc53b399dcf71cb9b9175bdf671cac11d29e582bdc3cae44e0",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "upstream_provenance/tissue/analysis.R",
+      "sha256": "ab280402219f43258845d2003eaa8d63d851a0844b5c7e33ff345ed9776c6453",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    },
+    {
+      "path": "upstream_provenance/tissue/edgeR_Analysis.R",
+      "sha256": "34c052f159e157d5120c36386eb12e0b43a90768945f97d3b6afc9d075ba2eae",
+      "status": "PASS",
+      "same_parsed_expressions_as_uploaded": true
+    }
+  ],
+  "self_tests": [
+    {
+      "name": "External-validation logical self-tests",
+      "scope": "Original identifier/sample-selection tests; no study data or fitted models.",
+      "status": "PASS"
+    },
+    {
+      "name": "Packaged reporting and metadata regression checks",
+      "scope": "Eight 16S source-expression checks and nine qPCR cases; no study models fitted.",
+      "status": "PASS"
+    }
+  ]
+}

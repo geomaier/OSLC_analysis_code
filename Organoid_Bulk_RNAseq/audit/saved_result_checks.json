@@ -1,0 +1,137 @@
+[
+  {
+    "check": "Infection paired t Serrated Lesion Gastric Metaplasia Gene Signature",
+    "pass": true,
+    "detail": "0.1732236352943791"
+  },
+  {
+    "check": "Infection paired t Interferon alpha response",
+    "pass": true,
+    "detail": "0.014191706491239534"
+  },
+  {
+    "check": "Infection paired t TNFA/NFKB signalling",
+    "pass": true,
+    "detail": "0.17306216384038747"
+  },
+  {
+    "check": "Infection paired t Inflammatory response",
+    "pass": true,
+    "detail": "0.08690306393724251"
+  },
+  {
+    "check": "Infection score BH family of four",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "BRAF_initial_passage_P1_or_P2_signature_scores_long.csv Welch Serrated Lesion Gastric Metaplasia Gene Signature",
+    "pass": true,
+    "detail": "0.695643274956013"
+  },
+  {
+    "check": "BRAF_initial_passage_P1_or_P2_signature_scores_long.csv Welch Interferon alpha response",
+    "pass": true,
+    "detail": "0.37308893294231554"
+  },
+  {
+    "check": "BRAF_initial_passage_P1_or_P2_signature_scores_long.csv Welch TNFA/NFKB signalling",
+    "pass": true,
+    "detail": "0.728908823375183"
+  },
+  {
+    "check": "BRAF_initial_passage_P1_or_P2_signature_scores_long.csv Welch Inflammatory response",
+    "pass": true,
+    "detail": "0.3854603206099303"
+  },
+  {
+    "check": "BRAF_strict_P1_signature_scores_long.csv Welch Serrated Lesion Gastric Metaplasia Gene Signature",
+    "pass": true,
+    "detail": "0.9228596019603741"
+  },
+  {
+    "check": "BRAF_strict_P1_signature_scores_long.csv Welch Interferon alpha response",
+    "pass": true,
+    "detail": "0.8505435161426947"
+  },
+  {
+    "check": "BRAF_strict_P1_signature_scores_long.csv Welch TNFA/NFKB signalling",
+    "pass": true,
+    "detail": "0.21296668145127626"
+  },
+  {
+    "check": "BRAF_strict_P1_signature_scores_long.csv Welch Inflammatory response",
+    "pass": true,
+    "detail": "0.36176825802316226"
+  },
+  {
+    "check": "Hallmark BH BRAF V600E vs WT in SSL_HP",
+    "pass": true,
+    "detail": "49 tested pathways"
+  },
+  {
+    "check": "Hallmark BH Infected vs Non-Infected",
+    "pass": true,
+    "detail": "49 tested pathways"
+  },
+  {
+    "check": "Passage BH final_24_gene_passage_GSEA_results.csv",
+    "pass": true,
+    "detail": "n=15; positive NES=15; q<.05=14"
+  },
+  {
+    "check": "Passage BH final_24_gene_SSL_HP_vs_H_ADJ_SSL_HP_P1_P4_P8_GSEA_results.csv",
+    "pass": true,
+    "detail": "n=3; positive NES=3; q<.05=3"
+  },
+  {
+    "check": "264 concordance correlations and positive leading-edge overlaps",
+    "pass": true,
+    "detail": "[]"
+  },
+  {
+    "check": "Concordance global Spearman BH",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "Concordance global positive-overlap BH",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "101 qPCR rows technical QC and means",
+    "pass": true,
+    "detail": "[]"
+  },
+  {
+    "check": "qPCR transformed values",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "qPCR sample and trajectory counts",
+    "pass": true,
+    "detail": "{'H_ADJ_SSL_HP': 6, 'SSL_HP': 7}"
+  },
+  {
+    "check": "qPCR strict sensitivity count",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "qPCR exclusions",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "Early organoid cohort",
+    "pass": true,
+    "detail": "{('H_ADJ_SSL_HP', 'WT', 1): 5, ('H_ADJ_SSL_HP', 'WT', 2): 1, ('SSL_HP', 'V600E', 1): 4, ('SSL_HP', 'WT', 1): 2, ('SSL_HP', 'WT', 2): 1}"
+  },
+  {
+    "check": "Infection passage-pair mapping",
+    "pass": true,
+    "detail": ""
+  }
+]

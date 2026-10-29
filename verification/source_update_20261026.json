@@ -1,0 +1,82 @@
+{
+  "prepared": "2026-10-26",
+  "base_github_commit": "9e2c3eff1d35a025eeb114c39019e14475bd3f28",
+  "base_archive": "OSLC_GitHub_release_candidate_20261019.zip",
+  "changes": [
+    {
+      "path": "16S/scripts/170_species_analysis.R",
+      "source": "170_species_analysis_ALL_PROFILES_FINAL.R",
+      "source_sha256": "cb6c1c6bd6edb374af0287764b72762f864bae911321eef0b04eeea863b334a3",
+      "prepared_sha256": "0343060e83eccc664eb44fd970645fde242cb1f3d2c1ce89571d958db995cb52",
+      "change": "Select final 22 October species analysis; replace server-specific path with OSLC_16S_WORK_DIR. Scientific calculation code is unchanged from that source."
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/115_braf_status_figure.R",
+      "source": "Figure_6_2_Antrum.R",
+      "source_sha256": "543142fc7aa4af39e498c6e83a570dcd29ed772e377ed62b3f57e53f1172f384",
+      "prepared_sha256": "cdb54042124c896bd2dc79249fd575cc30d709b538fe59b3b82e8047f5ba89af",
+      "change": "Add submitted Figure 6.2 plotting source, configure input and create a new output directory per run; retain counts, grouping and plotting calculations."
+    },
+    {
+      "path": "Organoid_Bulk_RNAseq/reviewed/05_SF5_6C_early_passage_labels.R",
+      "source": "SF_5_6C_corrected_original_style.R",
+      "source_sha256": "1bea8e3cecc85e12f3b2ec76c1a91c691b7fee5336b1485ef423a5c30a899abf",
+      "prepared_sha256": "472be4222159cfa982a831dc922b54736924bdad9b0b9fde67ea5077856bbe0f",
+      "change": "Add final 22 October passage-label correction; configure output parent and reduce archived source paths to basenames. Aggregate numerical values are retained."
+    },
+    {
+      "path": "Organoid_Bulk_RNAseq/reviewed/06_volcano_legend_layout.R",
+      "source": "Chapters_5_and_6_Volcano_Legend_Fix.R",
+      "source_sha256": "1b655ed8664ff2169b39dfc20cb7476e0505c2e52a5ca0c619007c59c00b83dd",
+      "prepared_sha256": "33c1b8585ae8289675bd61ff5d563ef3f4325146294836c68a6440273c4419c6",
+      "change": "Add final Chapter 5/6 volcano-layout source with configurable paths. Existing per-run output protection and plotted values are retained."
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/050_external_signature_validation.R",
+      "source": "Tissue_Bulk_RNAseq/scripts/050_external_signature_validation.R",
+      "source_sha256": "7fb1ea795d485acae90d4991ad33b5f44acfbef883452c23653c1234d48a8fd3",
+      "prepared_sha256": "274982487bb7b72df9c3c8c3240c1f8363e3ebc5041c2fdd6e4591f03e3dc34f",
+      "change": "Allow the existing base-R self-test to run without private configuration. Require preinstalled dependencies instead of silently installing current versions; analysis code is retained."
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/020_pathway_gsea.R",
+      "source": "Tissue_Bulk_RNAseq/scripts/020_pathway_gsea.R",
+      "source_sha256": "09c8a72fd241cd3c322b84f69594ec4fb627b71982dadfa89e467c730a2efe14",
+      "prepared_sha256": "07e29e342ecf2e1ea5b0e84937f8362a4bf2fbe0ab603f5850267eec868e6f2f",
+      "change": "Correct a misleading missing-dependency message; installation remains disabled by default."
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/060_bacterial_detection_gsea.R",
+      "source": "Tissue_Bulk_RNAseq/scripts/060_bacterial_detection_gsea.R",
+      "source_sha256": "24cfa77f254fff2e41ffc6e370b9f77a2d83b179d57623cb3be9373281b3a71e",
+      "prepared_sha256": "cf98548a2935f1b8af8ca5c837851b0089ed1123fcd33642bbc9ae9d7d85a53d",
+      "change": "Correct a misleading missing-dependency message; installation remains disabled by default."
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/065_braf_overall_gsea.R",
+      "source": "Tissue_Bulk_RNAseq/scripts/065_braf_overall_gsea.R",
+      "source_sha256": "d30dde9c237cf306bae69b15622af888387e055d662420136aad6a9a24384de4",
+      "prepared_sha256": "2ea1b68b8caeb1c42c1d1841f24a0282b8092c2cedb025f9d027fd7667218687",
+      "change": "Correct a misleading missing-dependency message; installation remains disabled by default."
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/070_braf_es_gsea.R",
+      "source": "Tissue_Bulk_RNAseq/scripts/070_braf_es_gsea.R",
+      "source_sha256": "4a898fa662dfb6509edc0469417c11eaf895db128fe6a727570d39549de900d2",
+      "prepared_sha256": "3efab6b5ef29c431aaf27be90fea2a8a02874bebe8e5ed9fd1832cd1e123b27d",
+      "change": "Correct a misleading missing-dependency message; installation remains disabled by default."
+    }
+  ],
+  "line_endings_normalised": [
+    "16S/scripts/10_filter_trim.R",
+    "Organoid_Bulk_RNAseq/provenance/FINAL_SSL_METAPLASIA_LIST.txt",
+    "Organoid_Bulk_RNAseq/provenance/RNAseq_sessionInfo.txt",
+    "Organoid_Bulk_RNAseq/provenance/concordance_sessionInfo.txt",
+    "Organoid_Bulk_RNAseq/provenance/passage_sessionInfo.txt",
+    "Organoid_Bulk_RNAseq/provenance/qPCR_sessionInfo.txt",
+    "Tissue_Bulk_RNAseq/provenance/bacterial_package_versions.csv",
+    "Tissue_Bulk_RNAseq/provenance/braf_overall_package_versions.csv",
+    "Tissue_Bulk_RNAseq/provenance/external_validation_package_versions.csv"
+  ],
+  "empty_ignored_placeholder_removed": "16S/outputs/README.md"
+}

@@ -1,0 +1,386 @@
+{
+  "file": "Tissue_Bulk_RNAseq/scripts/040_gastric_signature_and_scores.R",
+  "removed_function_count": 53,
+  "removed_functions": [
+    {
+      "function": "analyse_all_method_correlations",
+      "original_start_line": 3977,
+      "lines": 175,
+      "sha256": "df0753bb84bdefcfcdbaa11b5213e22657eef764782dd964cd562f441cffdba6"
+    },
+    {
+      "function": "analyse_all_score_distributions",
+      "original_start_line": 3179,
+      "lines": 94,
+      "sha256": "7bf07a24dc0cd9aefa62a5b0685b7011d2c1f4934ce1b44320ae34f2ef4ec927"
+    },
+    {
+      "function": "analyse_and_plot_metaplasia_scores",
+      "original_start_line": 3566,
+      "lines": 64,
+      "sha256": "caa3f533e88fc29d2c690aea8ecaf40ea08abed207177ccef26103c7b09a835a"
+    },
+    {
+      "function": "analyse_correlations",
+      "original_start_line": 3749,
+      "lines": 87,
+      "sha256": "1b0e0673ffff499be092b443f1e653715fa1a8306854f8b635fb0af059cea9b5"
+    },
+    {
+      "function": "calculate_all_singscores",
+      "original_start_line": 2497,
+      "lines": 112,
+      "sha256": "472bd92cbdd48ea05fe6426e41dc54560eb163e1047725789175915be3f96d98"
+    },
+    {
+      "function": "calculate_all_ssgsea",
+      "original_start_line": 2820,
+      "lines": 53,
+      "sha256": "67ee23607809bf7b62dbf29be37d060f75a2e919af534ff2ce6a9c3ed1240880"
+    },
+    {
+      "function": "calculate_all_zscores",
+      "original_start_line": 2695,
+      "lines": 30,
+      "sha256": "d570f56cfbe4488c67dcbd61a9413b3e067eb544e050dda3d0b4d16722df1026"
+    },
+    {
+      "function": "calculate_complete_score_suite",
+      "original_start_line": 2873,
+      "lines": 137,
+      "sha256": "f2ec107bd2c80a12c311a6ff16b435a2b4049e1e11ee3001b4eef19b57dc1795"
+    },
+    {
+      "function": "collapse_expression_by_symbol",
+      "original_start_line": 490,
+      "lines": 20,
+      "sha256": "58e378de7eb6a474f454b8d8183c8c19a770c2999ea41abec0e51258895f2ad7"
+    },
+    {
+      "function": "collapse_group",
+      "original_start_line": 325,
+      "lines": 12,
+      "sha256": "5cbdd9efdb3e02c88e6c7749142de799aaf4af078c17ca36fcf351e3d439e461"
+    },
+    {
+      "function": "compute_hcol_gene_z_matrix",
+      "original_start_line": 2609,
+      "lines": 45,
+      "sha256": "4892f96e9c1027e3cf66c83d9c9efcc48715fa0ed44c863ac1d4020731a5c301"
+    },
+    {
+      "function": "convert_cpm_to_tpm",
+      "original_start_line": 2280,
+      "lines": 78,
+      "sha256": "750a5a8ebc5f4465f5233f03d9c727138df24d4c3daeedc462433dae79ffee12"
+    },
+    {
+      "function": "correlation_rows_cross_method",
+      "original_start_line": 3849,
+      "lines": 47,
+      "sha256": "e9c2e7e406b5942d8037dcff96a27a94bd4237e7e69e5f372282a202c6d39cee"
+    },
+    {
+      "function": "correlation_test_rows",
+      "original_start_line": 3630,
+      "lines": 32,
+      "sha256": "0c78814e1e73b8a9d9b0396a7e104804d9133883a4957e3d069387014350f7db"
+    },
+    {
+      "function": "count_delimiter",
+      "original_start_line": 514,
+      "lines": 6,
+      "sha256": "e9cb4f993401268511c6c057eba357ba9f01ae3f2baf0deb55c89bdd9f760d4a"
+    },
+    {
+      "function": "filter_hallmark_by_mean_logcpm",
+      "original_start_line": 2406,
+      "lines": 40,
+      "sha256": "ba966dad239c03e0826e699c4f1a42e1384e4e174e516912d71c35be88c4ae8d"
+    },
+    {
+      "function": "format_p_text",
+      "original_start_line": 3662,
+      "lines": 6,
+      "sha256": "3a6b72eed50c13417ee7f5e69c174129fbeb2e40cc09289501a46f07b95c682f"
+    },
+    {
+      "function": "header_field_is_gene_label",
+      "original_start_line": 533,
+      "lines": 7,
+      "sha256": "60e4114e21e89daaa51866ad1fd6aae01b38429e70fc080559dc771a9653d97e"
+    },
+    {
+      "function": "is_blank_field",
+      "original_start_line": 510,
+      "lines": 4,
+      "sha256": "5b86d0e325de0e6f26ec0b0a202f498aab75c90b53c1048697dcc8e18836645f"
+    },
+    {
+      "function": "load_and_align_metadata",
+      "original_start_line": 629,
+      "lines": 145,
+      "sha256": "63dff7cec692dfd6491765c493dd04f3fc382c929170f5c1d2871e22c09f6fc8"
+    },
+    {
+      "function": "load_cpm_and_metadata",
+      "original_start_line": 2086,
+      "lines": 109,
+      "sha256": "28b4e51d44aed0c24288daeb3c7cb993cb61329103a881baf4da5ef8746c693c"
+    },
+    {
+      "function": "load_hallmark_gene_sets",
+      "original_start_line": 2358,
+      "lines": 48,
+      "sha256": "e23b294ea0b51a7bc368bca309871bdb0c153766e97ffeff99f52cf8fa584029"
+    },
+    {
+      "function": "looks_like_ensembl_gene_id",
+      "original_start_line": 540,
+      "lines": 6,
+      "sha256": "1268eb0d6183c792fe0c894b41a68715596ffcc345e51f9cedbcbef716ed5729"
+    },
+    {
+      "function": "make_correlation_panel",
+      "original_start_line": 3668,
+      "lines": 81,
+      "sha256": "54a6d5cdb7205c2f281fdbff2a67ab2d5ea2720f3b0627b0f7ecc12988989bb3"
+    },
+    {
+      "function": "make_cross_method_correlation_panel",
+      "original_start_line": 3896,
+      "lines": 81,
+      "sha256": "a3569cdeb9b7a9a543f748ea6964aea3d15eb562ac961ee0b48f51841a42a187"
+    },
+    {
+      "function": "make_generic_score_distribution_plot",
+      "original_start_line": 3073,
+      "lines": 106,
+      "sha256": "fd7f227a03405d447919a6f07c1b63c526d9f66c53e8ffa67081c300bd355102"
+    },
+    {
+      "function": "make_score_distribution_plot",
+      "original_start_line": 3441,
+      "lines": 125,
+      "sha256": "a0d59c67d5363004d5fd5e8715492f4d3485cc7c608a94c54c368b7f6f34ac43"
+    },
+    {
+      "function": "method_short_label",
+      "original_start_line": 3840,
+      "lines": 9,
+      "sha256": "8b64e4213c2121a915a93df7d2f78d1ff8fe1d9a0d8bd629f93f6be21d982ed2"
+    },
+    {
+      "function": "normalise_name",
+      "original_start_line": 305,
+      "lines": 7,
+      "sha256": "c90c8208f883f79cb2260a6f07adc1c7d51a3467a07d9f5b064bf264967cf290"
+    },
+    {
+      "function": "normalise_sample_id",
+      "original_start_line": 312,
+      "lines": 9,
+      "sha256": "a856fe987351f17d79357dcb4c922edfeec5835ee68db5082b8b9e73dbf2724f"
+    },
+    {
+      "function": "p_label",
+      "original_start_line": 3277,
+      "lines": 9,
+      "sha256": "816ab74ec623d9f79c855e0b9e7ab43a1dcda1355a5c44e6cecea85a1f4d4a5b"
+    },
+    {
+      "function": "pair_key",
+      "original_start_line": 3273,
+      "lines": 4,
+      "sha256": "bd85a689f368c97db0d46f9a832d37254e75e3cc51e4dca873eae343e311caab"
+    },
+    {
+      "function": "paper_theme",
+      "original_start_line": 429,
+      "lines": 21,
+      "sha256": "63eb753de606f0ea79161d9eb41c0b64c0ee93eb6eb954a86604abc4153ad8d2"
+    },
+    {
+      "function": "parse_group_from_sample",
+      "original_start_line": 337,
+      "lines": 12,
+      "sha256": "5cd113b7832979f703eafb49f9f24ab540ca2c35cbb22cdd65a1aa1ff5c6a646"
+    },
+    {
+      "function": "read_cpm_header_safe",
+      "original_start_line": 546,
+      "lines": 83,
+      "sha256": "18547e90ca28a48538e0ae62387e8828443f172c2413bfee6fffc5298f53149b"
+    },
+    {
+      "function": "read_gene_lengths",
+      "original_start_line": 2195,
+      "lines": 85,
+      "sha256": "4624e1cd86ab16a778275af31e18b3fa0926b286168f0dd2ab67316a0efed269"
+    },
+    {
+      "function": "run_generic_score_group_tests",
+      "original_start_line": 3020,
+      "lines": 53,
+      "sha256": "13db7277284602e0d4dd8b418b23433a6fc16b72bcc6f7b4171e7da74368189e"
+    },
+    {
+      "function": "run_nonparametric_group_tests",
+      "original_start_line": 3286,
+      "lines": 48,
+      "sha256": "5eb55fc1f10e8b49519d0b8e338c0e992ddb9d9831dac4835ec0df5b65eb013c"
+    },
+    {
+      "function": "run_patient_adjusted_group_tests",
+      "original_start_line": 3334,
+      "lines": 93,
+      "sha256": "d5135d7475df8e652046dd34215495066f630bcc7c16dc6cf37529a27f666a37"
+    },
+    {
+      "function": "run_ssgsea_gsva_safe",
+      "original_start_line": 2725,
+      "lines": 95,
+      "sha256": "e152ca82a3d6ede8f8bede94a4704a53d8ebc50245d6d1b45a6584186bfea7cc"
+    },
+    {
+      "function": "safe_mean",
+      "original_start_line": 284,
+      "lines": 7,
+      "sha256": "c0e9778b22f9676076aea6de52515fe0b1392022c219b2c11c6332ddf8ee3ce3"
+    },
+    {
+      "function": "safe_sd",
+      "original_start_line": 298,
+      "lines": 7,
+      "sha256": "2d6284c704281c973597b1bfe65bb7b3e260afc7da771cb7a606412fed1c7608"
+    },
+    {
+      "function": "score_column_name",
+      "original_start_line": 3836,
+      "lines": 4,
+      "sha256": "db7a33c70fd6c532fc43a11a0384c0a1a33bf7331a1cc2bf1b9b78d35ef98883"
+    },
+    {
+      "function": "score_method_y_label",
+      "original_start_line": 3010,
+      "lines": 5,
+      "sha256": "e565d4f6b229c925f33fcd56815f013e53215aeff5ab7bb9748c7654e5875b72"
+    },
+    {
+      "function": "score_one_signature",
+      "original_start_line": 2446,
+      "lines": 51,
+      "sha256": "f3bb0d841c9afe3549e2cd8c6cd55285e795cdca7d907b478253dbbb990a7157"
+    },
+    {
+      "function": "score_one_z_signature",
+      "original_start_line": 2654,
+      "lines": 41,
+      "sha256": "1615a7d04017d7e37a9c00dd1c62fb0a651767883d5fc928b920b6a91c3eca46"
+    },
+    {
+      "function": "select_plot_comparisons",
+      "original_start_line": 3427,
+      "lines": 14,
+      "sha256": "0055e0c7559d24cee30fb84c9eb69c8becf5305233b7ae03fd3e5f70a4c92cb2"
+    },
+    {
+      "function": "signature_pretty_label",
+      "original_start_line": 3015,
+      "lines": 5,
+      "sha256": "c8c8831cbddbae90ea8282e624e38bfc430bb9a7c66185df84dda8bf3db9a7cb"
+    },
+    {
+      "function": "split_fields",
+      "original_start_line": 520,
+      "lines": 6,
+      "sha256": "b5ee4bb1977b1b3f718567d8571ab8763c1b9b5275915718fdc93f226524bde9"
+    },
+    {
+      "function": "strip_batch_prefix",
+      "original_start_line": 321,
+      "lines": 4,
+      "sha256": "9e763d4c23839c3dcd662a149d14a85b068dd5a693320356eca25a9eb62aa99b"
+    },
+    {
+      "function": "trim_trailing_blank_fields",
+      "original_start_line": 526,
+      "lines": 7,
+      "sha256": "d1e36002a87930924b4903443a1b83d5191821800c03fac19b001fa44b1bda16"
+    },
+    {
+      "function": "write_analysis_record",
+      "original_start_line": 4152,
+      "lines": 129,
+      "sha256": "34cda009e9369e98ad751393eb044651916df721e9074fdb6b80ce5c61df5de9"
+    },
+    {
+      "function": "write_tsv_safe",
+      "original_start_line": 386,
+      "lines": 5,
+      "sha256": "f13c01bb4332663773f460c909efa3541a1f455a71fd9ad9473b33ae2b94ad21"
+    }
+  ],
+  "retained_function_count": 25,
+  "unchanged_active_function_bodies": [
+    "`%||%`",
+    "assert_files_exist",
+    "build_m26f_prerank",
+    "calculate_running_enrichment",
+    "extract_combined_de_contrast",
+    "find_combined_gsea_prefix",
+    "format_gsea_p",
+    "generate_final_signature",
+    "generate_stomach_candidates",
+    "make_signature_heatmap",
+    "make_workflow_panel",
+    "pick_first_existing",
+    "prepare_gene_symbols",
+    "pt_to_mm",
+    "read_table_flexible",
+    "run_final_signature_gsea",
+    "safe_max",
+    "save_plot_set",
+    "standardise_de_table",
+    "standardise_gene_vector",
+    "tau_score",
+    "to_num",
+    "write_csv_safe",
+    "write_lines_safe"
+  ],
+  "active_pipeline_change": "Removed only cpm_file, gene_length_file and metadata_file from required_files; none is read by active discovery/heatmap/GSEA pipeline.",
+  "unused_packages_removed": [
+    "msigdbr",
+    "singscore",
+    "GSVA",
+    "lme4",
+    "lmerTest",
+    "emmeans"
+  ],
+  "original_lines": 4363,
+  "reviewed_lines": 1707,
+  "independent_check": {
+    "review_date": "2026-10-26",
+    "reviewer": "Independent source-structure check",
+    "file": "Tissue_Bulk_RNAseq/scripts/040_gastric_signature_and_scores.R",
+    "original_sha256": "16199a369401d4b0611e8a1ef8bc7a01ff15bdd5687b657a55562df3b4a31a0c",
+    "reviewed_sha256": "f3136f9f34f5f869c9f9e1f56bfe73163662f727de00b6c1ea5a5af426f24126",
+    "test_runtime": "Fresh webR base-R interpreter; no study data or analysis packages loaded",
+    "status": "PASS",
+    "checks": {
+      "original_run_pipeline_transitive_symbol_graph_function_count": 25,
+      "retained_function_count": 25,
+      "all_transitively_referenced_original_functions_retained": true,
+      "removed_function_count": 53,
+      "removed_functions_reachable_from_run_pipeline": [],
+      "unchanged_retained_helper_AST_count_excluding_run_pipeline": 24,
+      "all_retained_helper_ASTs_identical": true,
+      "removed_input_field_references_in_retained_functions": [],
+      "dynamic_dispatch_calls_in_retained_functions": [],
+      "removed_package_dependencies_found_in_retained_functions": [],
+      "apply_lapply_and_function_argument_references_reviewed": true,
+      "config_compatibility_reviewed": true
+    },
+    "scope_note": "run_pipeline differs only by removing the three unused required-input checks, as documented by the tissue review. This is static execution-structure verification, not a rerun of signature discovery or GSEA."
+  }
+}

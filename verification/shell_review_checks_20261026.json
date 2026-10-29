@@ -1,0 +1,81 @@
+{
+  "statistical_execution": false,
+  "checks": [
+    {
+      "check": "Syntax: check_strandedness.sh",
+      "passed": true
+    },
+    {
+      "check": "Syntax: collate_featureCounts.sh",
+      "passed": true
+    },
+    {
+      "check": "Syntax: collate_picard.sh",
+      "passed": true
+    },
+    {
+      "check": "Syntax: launch_check_strandedness.sh",
+      "passed": true
+    },
+    {
+      "check": "Syntax: launch_tma_collate.sh",
+      "passed": true
+    },
+    {
+      "check": "Syntax: launch_trim_map_assign.sh",
+      "passed": true
+    },
+    {
+      "check": "Syntax: trim_map_assign.sh",
+      "passed": true
+    },
+    {
+      "check": "Preserve existing work: launch_check_strandedness.sh",
+      "passed": true
+    },
+    {
+      "check": "Preserve existing output: launch_check_strandedness.sh",
+      "passed": true
+    },
+    {
+      "check": "Preserve existing work: launch_trim_map_assign.sh",
+      "passed": true
+    },
+    {
+      "check": "Preserve existing output: launch_trim_map_assign.sh",
+      "passed": true
+    },
+    {
+      "check": "Picard strand 0",
+      "passed": true
+    },
+    {
+      "check": "Picard strand 1",
+      "passed": true
+    },
+    {
+      "check": "Picard strand 2",
+      "passed": true
+    },
+    {
+      "check": "Queue count 0: launch_check_strandedness.sh",
+      "passed": true
+    },
+    {
+      "check": "Queue count 1: launch_check_strandedness.sh",
+      "passed": true
+    },
+    {
+      "check": "Queue count 0: launch_trim_map_assign.sh",
+      "passed": true
+    },
+    {
+      "check": "Queue count 1: launch_trim_map_assign.sh",
+      "passed": true
+    },
+    {
+      "check": "Header selection consumes input under pipefail",
+      "passed": true
+    }
+  ]
+}

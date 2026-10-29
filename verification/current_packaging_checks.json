@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-26",
+  "scope": "Reviewed source package; no study-model execution",
+  "R_statistical_execution_performed": false,
+  "R_files": 55,
+  "R_parse_failures": [],
+  "original_common_R_files": 54,
+  "identical_parsed_expression_R_files": 46,
+  "documented_changed_R_expression_files": [
+    "16S/config/config_example.R",
+    "16S/scripts/120_alpha_diversity.R",
+    "16S/scripts/160_deseq2_volcano_all_comparisons.R",
+    "16S/scripts/175_matched_analysis.R",
+    "16S/scripts/181_alpha_age_corrected.R",
+    "16S/scripts/80_fix_metadata_names.R",
+    "Organoid_Bulk_RNAseq/reviewed/03_MUC5AC_qPCR.R",
+    "Tissue_Bulk_RNAseq/scripts/040_gastric_signature_and_scores.R"
+  ],
+  "self_tests": [
+    {
+      "name": "External-validation logical self-tests",
+      "scope": "Original identifier/sample-selection tests; no study data or fitted models.",
+      "status": "PASS"
+    },
+    {
+      "name": "Packaged reporting and metadata regression checks",
+      "scope": "Eight 16S source-expression checks and nine qPCR cases; no study models fitted.",
+      "status": "PASS"
+    }
+  ],
+  "shell_checks_passed": 19,
+  "python_syntax_passed": [
+    "tools/check_file_integrity.py",
+    "tools/check_shell_guards.py"
+  ],
+  "broken_local_documentation_links": [],
+  "targeted_scan": {
+    "prohibited_input_or_state_files": [],
+    "credential_pattern_hits": [],
+    "personal_machine_or_scratch_paths": [],
+    "scope_note": "Targeted source scan, not clinical de-identification or redistribution permission. Necessary pseudonymous identifiers and contributor credits are retained."
+  },
+  "source_index_entries": 64
+}

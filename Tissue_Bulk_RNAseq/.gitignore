@@ -1,0 +1,6 @@
+config/config.R
+data/
+outputs/
+.RData
+.Rhistory
+.Rproj.user/

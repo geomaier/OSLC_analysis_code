@@ -1,0 +1,26 @@
+[
+  {
+    "script": "01_Organoid_RNAseq.R",
+    "original_and_reviewed_R_syntax_tree": true,
+    "parser_note": "",
+    "scientific_tokens_unchanged_after_reversing_documented_IO_edits": true
+  },
+  {
+    "script": "02_Passage_GSEA.R",
+    "original_and_reviewed_R_syntax_tree": true,
+    "parser_note": "",
+    "scientific_tokens_unchanged_after_reversing_documented_IO_edits": true
+  },
+  {
+    "script": "03_MUC5AC_qPCR.R",
+    "original_and_reviewed_R_syntax_tree": true,
+    "parser_note": "",
+    "scientific_tokens_unchanged_after_reversing_documented_IO_edits": true
+  },
+  {
+    "script": "04_Concordance.R",
+    "original_and_reviewed_R_syntax_tree": true,
+    "parser_note": "For syntax-tree checking only, switch argument name is quoted to work around tree-sitter R grammar; delivered R code unchanged.",
+    "scientific_tokens_unchanged_after_reversing_documented_IO_edits": true
+  }
+]

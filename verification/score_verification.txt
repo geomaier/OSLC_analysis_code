@@ -1,0 +1,3 @@
+Private CSV parsed tables unchanged: 10
+Unchanged function bodies: cluster_bootstrap_correlations, make_original_scoring_environment, export_figures
+All 72 score group contrasts and 36 alpha-score associations reproduce accepted results within 1e-6; P values differ by less than 3e-9.

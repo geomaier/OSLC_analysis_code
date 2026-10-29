@@ -1,0 +1,126 @@
+[
+  {
+    "script": "010_tissue_pca.R",
+    "source": "M26F_Figure_1_PCA(1).R",
+    "source_sha256": "89c4198fc12e879a765b40e0491a6ace81d13e5a83434e342782c52c9dc04fc6",
+    "publication_sha256": "e36d3bc23563bfebd74f2c08a51a453eee84f1abb9127d858d998ed60e7e71c1",
+    "changes": "Paths moved to config; removed global workspace deletion; stop before overwriting saved outputs. PCA and plotting settings unchanged.",
+    "syntax": "tree-sitter R grammar passed; not executed in R",
+    "comment_cleanup": "Comments removed; executable syntax tokens unchanged by comment removal.",
+    "status": "reviewed downstream code"
+  },
+  {
+    "script": "020_pathway_gsea.R",
+    "source": "M26F_PAPER_READY_FGSEA_NATURE_STANDARD_RANKING.R",
+    "source_sha256": "f0a1cedd22bb32eb4500af8e54171dd19ea73058deb82b4dd674f5614abf7676",
+    "publication_sha256": "09c8a72fd241cd3c322b84f69594ec4fb627b71982dadfa89e467c730a2efe14",
+    "changes": "Paths moved to config; removed recursive deletion of earlier results; stop before overwriting. Ranking, filtering, random seed, inference and plot settings unchanged.",
+    "syntax": "tree-sitter R grammar passed; not executed in R",
+    "comment_cleanup": "Comments removed; executable syntax tokens unchanged by comment removal.",
+    "status": "reviewed downstream code"
+  },
+  {
+    "script": "030_pathway_figures.R",
+    "source": "M26F_Final_Figure3_Nature(4).R",
+    "source_sha256": "ab5f4335406adc3a6452af87d0f13755838c004518d7419d14fdfd922bdd898d",
+    "publication_sha256": "ff4310ad205d354c66d5fe47cd9d8e4ee35912e42cac7eb8520ce672ca9fb714",
+    "changes": "Paths moved to config; stop before overwriting figure exports. Gene selection, figures, labels, colours and data unchanged.",
+    "syntax": "tree-sitter R grammar passed; not executed in R",
+    "comment_cleanup": "Comments removed; executable syntax tokens unchanged by comment removal.",
+    "status": "reviewed downstream code"
+  },
+  {
+    "script": "040_gastric_signature_and_scores.R",
+    "source": "M26_FINAL_GASTRIC_METAPLASIA_PIPELINE_v11_COLLISION_SAFE_BRACKETS(1).R",
+    "source_sha256": "c6479428fcf3d15083d2bdf8b384edc9425308d2982ca63f2515b4439dc44509",
+    "publication_sha256": "d2a8db28ab09cc71c66dacf2b4f8a41905d6c7f4bef713a7e33aa1e82160e4f9",
+    "changes": "Paths moved to config; stop before overwriting; stop if the requested gastric patient model is unavailable instead of silently plotting an unpaired substitute. Main correlation export selects the existing SSL_HP_ONLY results, matching the 40-biopsy thesis figure; all other subsets remain exported. Calculations, models and plotting style retained. Inflammatory group tests and correlations are retained as biopsy-level exploratory summaries, with dependence limitations stated.",
+    "syntax": "tree-sitter R grammar passed; not executed in R",
+    "comment_cleanup": "Comments removed; executable syntax tokens unchanged by comment removal.",
+    "status": "reviewed downstream code"
+  },
+  {
+    "script": "050_external_signature_validation.R",
+    "source": "SSL24_GSE76987_GSE198692_FINAL.R",
+    "source_sha256": "49a29634c4ec24cd78cd98756fdea06ed4877327eba69a5cd87d14e844042f3b",
+    "publication_sha256": "7fb1ea795d485acae90d4991ad33b5f44acfbef883452c23653c1234d48a8fd3",
+    "changes": "Uses the recovered script matching GSE76987/GSE198692 accepted results. Private path moved to config. Cohorts, inferred repeat-lesion restriction, models, filters, seeds and figures unchanged.",
+    "syntax": "tree-sitter R grammar passed; not executed in R",
+    "comment_cleanup": "Comments removed; executable syntax tokens unchanged by comment removal.",
+    "status": "reviewed downstream code"
+  },
+  {
+    "script": "070_braf_es_gsea.R",
+    "source": "FINAL_BRAF_ES_HEATMAP_ORIGINAL_FOLDER.R",
+    "source_sha256": "1690adec6096a483c64123b642bf78bb904d94c8686071efc3ff969a35c5a064",
+    "publication_sha256": "4a898fa662dfb6509edc0469417c11eaf895db128fe6a727570d39549de900d2",
+    "changes": "Uses recovered September script matching the corrected unfiltered gastric analysis. Private paths moved to config; existing nonoverwriting timestamped output preserved. Hallmark filters, gastric ranking, tests and plot style unchanged.",
+    "syntax": "tree-sitter R grammar passed; not executed in R",
+    "comment_cleanup": "Comments removed; executable syntax tokens unchanged by comment removal.",
+    "status": "reviewed downstream code"
+  },
+  {
+    "script": "../Pending_qPCR/080_muc5ac_qpcr.R",
+    "source": "M26F_MUC5AC_PLOT_PCR(1).R",
+    "source_sha256": "025deab9482e3714db3e0b21307ce1e1e60b8ceaf93c9e6222ff07d19016908f",
+    "publication_sha256": "d61cb170db5dde208e4d9c9a29f828bf38bea6d7dc3e73e6b9d14a312c605dc3",
+    "changes": "Paths configured and outputs protected. Imports precomputed values whose final transformation/sample mapping remain unverified. Original plotting and tests retained; held outside ready repository folder.",
+    "syntax": "tree-sitter R grammar passed; not executed in R",
+    "comment_cleanup": "Comments removed; executable syntax tokens unchanged by comment removal.",
+    "status": "provenance pending"
+  },
+  {
+    "script": "090_gastric_score_reporting.R",
+    "source": "New reporting-only export using unchanged original plotting functions",
+    "changes": "Reads saved gastric singscores and six saved patient-adjusted comparisons; does not fit a model. Retains original violin/box/point colours and dimensions. Display-only jitter seed 1.",
+    "syntax": "tree-sitter R grammar passed; not executed in R",
+    "publication_sha256": "27b1946514048ad41ab5f3b51afb9c6892b6801075001faa7cf62ab7371e674c",
+    "comment_cleanup": "Comments removed; executable syntax tokens unchanged by comment removal.",
+    "status": "reviewed downstream code"
+  },
+  {
+    "script": "060_bacterial_detection_gsea.R",
+    "source": "M26F_ALL6_SERR_FUSO_ES_FINAL_CORRECTED(4).R",
+    "source_sha256": "2fbea9c6ab85c5ad966d6548c4c179995b34f4ea63c9f202f64b6fa332d7df90",
+    "changes": "Configured input/output paths; nonempty-output guard; comment cleanup verified to preserve executable tokens. Removed global workspace/connection clearing and recursive deletion; disabled automatic installation; corrected small-P formatting below 0.001. Ranking, tests, filters, seed and figure design unchanged.",
+    "publication_sha256": "24cfa77f254fff2e41ffc6e370b9f77a2d83b179d57623cb3be9373281b3a71e",
+    "syntax": "tree-sitter R grammar passed; not executed in R",
+    "status": "reviewed downstream code"
+  },
+  {
+    "script": "065_braf_overall_gsea.R",
+    "source": "M26F_BRAF_V600E_VS_WT_SSLHP_FINAL_CORRECTED(3).R",
+    "source_sha256": "62f7deb2e37b0f1017fae2b60caf103d6714582be99ca670228fabda0cc3b28b",
+    "changes": "Configured input/output paths; nonempty-output guard; comment cleanup verified to preserve executable tokens. Removed global workspace/connection clearing and recursive deletion; disabled automatic installation; corrected small-P formatting below 0.001. Ranking, tests, filters, seed and figure design unchanged.",
+    "publication_sha256": "d30dde9c237cf306bae69b15622af888387e055d662420136aad6a9a24384de4",
+    "syntax": "tree-sitter R grammar passed; not executed in R",
+    "status": "reviewed downstream code"
+  },
+  {
+    "script": "100_alpha_diversity_host_scores.R",
+    "source": "CH4_4_6_3_SPEARMAN_AND_MIXED_MODELS_FINAL.R",
+    "source_sha256": "4686a4596aa54007fe0ce9b297b8bc365a88ef980915f04521ee88939738444f",
+    "changes": "Configured input/output paths; nonempty-output guard; comment cleanup verified to preserve executable tokens.",
+    "publication_sha256": "d2319bcae6653131b9cb6b5efbc71d46c1be9a84241d28c2c4dbb39b40de6bf8",
+    "syntax": "tree-sitter R grammar passed; not executed in R",
+    "status": "reviewed downstream code"
+  },
+  {
+    "script": "110_clinical_host_scores.R",
+    "source": "CH4_clinical_scores_only.R",
+    "source_sha256": "7edd7d53622f357021c00355b1fc183c98302bf1242bf120f81e87e93e5a8229",
+    "changes": "Configured input/output paths; nonempty-output guard; comment cleanup verified to preserve executable tokens. Existing timestamped clinical output retained; all model settings unchanged.",
+    "publication_sha256": "d380e07db329f072f8a1d6e84226b468f3a4f11a174028719fafd4445c711c5a",
+    "syntax": "tree-sitter R grammar passed; not executed in R",
+    "status": "reviewed downstream code"
+  },
+  {
+    "script": "045_signature_threshold_sensitivity.R",
+    "source": "M26_FINAL_METAPLASIA_SIGNATURE_MULTISTAGE_SENSITIVITY_V3.R",
+    "source_sha256": "6f99ababc8557e21a2986b0aa463d9893f71bfac7327aab388cd55437e8b5649",
+    "changes": "Configured input/output paths; nonempty-output guard; comment cleanup verified to preserve executable tokens. Original threshold grids unchanged. Expanded V3 outputs were not supplied; only existing one-factor thesis results were validated.",
+    "publication_sha256": "89e2bfc5ce5fba64c65481aff51bb6160900e63babd02e0e1b126b35d266abf0",
+    "syntax": "tree-sitter R grammar passed; not executed in R",
+    "status": "optional expanded sensitivity; no saved V3 run audited"
+  }
+]

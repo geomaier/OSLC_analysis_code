@@ -1,0 +1,408 @@
+{
+  "date": "2026-10-26",
+  "source_archive": "OSLC_GitHub_update_20261026 (1).zip",
+  "source_archive_sha256": "328164bbcf0a3adedadd1be7fabd40d095639f32405adc82f3280e5d8081a94a",
+  "scope": "Source readability, documented input/reporting fixes and validation. No statistical study rerun.",
+  "note": "Every changed/added/removed file is listed except this ledger and the regenerated FILE_MANIFEST.json; the manifest hashes this ledger and every other packaged file. Historical records are retained as history.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "status": "modified",
+      "uploaded_sha256": "420aef5c39f2c5bb438645e5fd7c7828132ed901d49d245ecca02c772e45c9fb",
+      "reviewed_sha256": "6b3a1c131d748f465c420ea5caa1ce6597cd717a0dffaf20968c727e66eae529",
+      "change": "Regenerated current inventory, provenance or verification evidence."
+    },
+    {
+      "path": "16S/README.md",
+      "status": "modified",
+      "uploaded_sha256": "e566ad249504e5bbf086d61364da904d4402c78999e30d2e579e4089f777c921",
+      "reviewed_sha256": "2a4f373cee4394e9eecc181469d8d5413e38ec17b4ac2fb2123387678c1932c9",
+      "change": "Documentation, navigation, run guidance or validation-status update."
+    },
+    {
+      "path": "16S/config/README.md",
+      "status": "modified",
+      "uploaded_sha256": "4ceb767bbfadee5256d65c8c0d240a669a3a94c5e3bd7d7050f93dc45d97f110",
+      "reviewed_sha256": "30952d537595a3003e4ab83fd03a165b60cdd16416da501b0deaf6eda8134ef5",
+      "change": "Documentation, navigation, run guidance or validation-status update."
+    },
+    {
+      "path": "16S/config/analysis_paths.example.R",
+      "status": "removed",
+      "uploaded_sha256": "d5bcc1304b3e43cc4bdfd4f1f67ce167702111f6d2063ee084ad5d8409db8b41",
+      "reviewed_sha256": null,
+      "change": "Removed unused duplicate configuration fragment."
+    },
+    {
+      "path": "16S/config/config_example.R",
+      "status": "modified",
+      "uploaded_sha256": "171f293110ecd285aaa051681d80dd278c1697867e320c75b6cbff70fb894c23",
+      "reviewed_sha256": "886ff7504ea145461f849d3af43ffd404b3647b92772510266a9bc2e6803f67f",
+      "change": "Removed unused options; retained active parameters."
+    },
+    {
+      "path": "16S/scripts/120_alpha_diversity.R",
+      "status": "modified",
+      "uploaded_sha256": "c44e1f45fd36d2c7421d3bd5d4b58620e4d24ba84151b7e58da98448b11c010c",
+      "reviewed_sha256": "1e4128cd3ce575a8e89e1eda16fec5f7901c7075d67f5040cfc721ec9d6d937c",
+      "change": "Use configured PATH_WORK; analysis unchanged."
+    },
+    {
+      "path": "16S/scripts/144_beta_final.R",
+      "status": "modified",
+      "uploaded_sha256": "a49cb5779c1c14f7358a41d5fd88701aec985b89c8d4d52e39e65bcc4653aec5",
+      "reviewed_sha256": "0580618f09f80907818c22df3309e3812a983ede8a685deba2ec85e1c1c8ac53",
+      "change": "Comments/formatting only; parsed expressions identical to uploaded source."
+    },
+    {
+      "path": "16S/scripts/150_clr_code.R",
+      "status": "modified",
+      "uploaded_sha256": "d2926f638c36a4d9c536658d9910a775ce7ddb300c5985fdc3d75f0ae7ca7815",
+      "reviewed_sha256": "64fc347cf76a79b50c03e5b84c39776c22d78a3cfc3336265b553f3a02c46f09",
+      "change": "Comments/formatting only; parsed expressions identical to uploaded source."
+    },
+    {
+      "path": "16S/scripts/160_deseq2_volcano_all_comparisons.R",
+      "status": "modified",
+      "uploaded_sha256": "a6343c9e9f01f89dd1a3bba0f8f1068462547373648d67d4ac976da3c8fe1b86",
+      "reviewed_sha256": "4e02671d8671e334ec99d61302cbeab83f10e483c9f641a9d080fd5b6fdbf6dc",
+      "change": "Use established final missing-FDR volcano reporting; model fitting unchanged."
+    },
+    {
+      "path": "16S/scripts/161_genus_ancombc2.R",
+      "status": "modified",
+      "uploaded_sha256": "a63ec3cc4bdf7ab8217a347cdc5c84c5095d592a1eda2deac4f50bd5cba2c678",
+      "reviewed_sha256": "bdc0c0757a31fd1c041161e832408e9328f2de5f8cc5cc490fe55997f9d47e9c",
+      "change": "Comments/formatting only; parsed expressions identical to uploaded source."
+    },
+    {
+      "path": "16S/scripts/170_species_analysis.R",
+      "status": "modified",
+      "uploaded_sha256": "0343060e83eccc664eb44fd970645fde242cb1f3d2c1ce89571d958db995cb52",
+      "reviewed_sha256": "07acdd9de918ba54f9d0b3e43e83186b84a8b04a17d6a2adb1810654101d3223",
+      "change": "Comments/formatting only; parsed expressions identical to uploaded source."
+    },
+    {
+      "path": "16S/scripts/175_matched_analysis.R",
+      "status": "modified",
+      "uploaded_sha256": "4cbbb2d2d1a8e1dbd730dedf0e946566ac622d6f3eba851b1a686d4968f671ff",
+      "reviewed_sha256": "6cb8190ade4b7a53e03dacc2bdd953c53d6f6282fbec9b1aa0c7bd3fcedfe42a",
+      "change": "Use established final missing-test and cross-method reporting; model fitting unchanged."
+    },
+    {
+      "path": "16S/scripts/180_supplementary_mixed_models.R",
+      "status": "modified",
+      "uploaded_sha256": "ee7822a181ba2a43a707d416d8c0933fb95b431c680025b115f5cb2fd3207ba3",
+      "reviewed_sha256": "57b7ba0f1b69751fad6146eb3a4bbc2078671e4369c2e67e79512e9a666d5a7e",
+      "change": "Comments/formatting only; parsed expressions identical to uploaded source."
+    },
+    {
+      "path": "16S/scripts/181_alpha_age_corrected.R",
+      "status": "modified",
+      "uploaded_sha256": "4f7b92d2e1aad684511fb9886957cb10df802095a23a646477324559c46e15eb",
+      "reviewed_sha256": "927bffb121a30b157eecbe7829a28e9e8d39bd51c350a99e331448ba19f6da58",
+      "change": "Remove redundant individual-age assertion/note and editing narrative; analysis unchanged."
+    },
+    {
+      "path": "16S/scripts/80_fix_metadata_names.R",
+      "status": "modified",
+      "uploaded_sha256": "524788657b0c9bd6501bd874d3153d259ecee89fea087a186509df74f4de5e00",
+      "reviewed_sha256": "5809fe9d9f94ba4335ae884734da20cbc169615a698893d1c7200c255c548fd6",
+      "change": "Apply the existing configured aliases with alignment/collision checks and mapping audit."
+    },
+    {
+      "path": "CHANGELOG.md",
+      "status": "modified",
+      "uploaded_sha256": "5c1382471ec8375bcac9b1fc5913d3002135fcb2b81fb2d62e919e2303a221fb",
+      "reviewed_sha256": "1427361db1a8ea9db27a64bb3105de31565a318b4dfb6110532c368973fa4854",
+      "change": "Documentation, navigation, run guidance or validation-status update."
+    },
+    {
+      "path": "CITATION_AND_LICENCE.md",
+      "status": "modified",
+      "uploaded_sha256": "075d5589717b4445b0c1c470cf109cca60c6419d866c6d84a3e3154049a5f6e1",
+      "reviewed_sha256": "fa8d0213f57c28ce23a6e55bf0152f229aba8ce0b24ec2b8959c75ab27bc515f",
+      "change": "Documentation, navigation, run guidance or validation-status update."
+    },
+    {
+      "path": "Organoid_Bulk_RNAseq/README.md",
+      "status": "modified",
+      "uploaded_sha256": "ac29699e4e3b84ba44f24c5cd531fd2e77c90879ee5849c81345682e24aa509a",
+      "reviewed_sha256": "5336aa8c2465e7f74554f566051b7f72e5cb1946b0d7c9495e074d3057f1e8f1",
+      "change": "Documentation, navigation, run guidance or validation-status update."
+    },
+    {
+      "path": "Organoid_Bulk_RNAseq/audit/README.md",
+      "status": "added",
+      "uploaded_sha256": null,
+      "reviewed_sha256": "f8b315c5076092fd09a43ffb246fdbe2882bafed667d6e5ad2dbef0083266cb4",
+      "change": "Documentation, navigation, run guidance or validation-status update."
+    },
+    {
+      "path": "Organoid_Bulk_RNAseq/audit/code_changes.json",
+      "status": "modified",
+      "uploaded_sha256": "eae4180037d3367b5c451e5d4314081e40b975b2bea06456648d6a99a10988d1",
+      "reviewed_sha256": "b17c564da286b1b3acdc8d962fe148ff27fc909ba41085d443f4d9276fbb23fe",
+      "change": "Redacted personal source-directory prefix; historical evidence retained."
+    },
+    {
+      "path": "Organoid_Bulk_RNAseq/reviewed/01_Organoid_RNAseq.R",
+      "status": "modified",
+      "uploaded_sha256": "3326f6524c78a34524d3514be40904b51e74f5a2e635e9487d675fc63251c103",
+      "reviewed_sha256": "aecf546e4f933004023fb8af0fdc32dffb5838875d44ee95b5d253325769628a",
+      "change": "Comments/formatting only; parsed expressions identical to uploaded source."
+    },
+    {
+      "path": "Organoid_Bulk_RNAseq/reviewed/02_Passage_GSEA.R",
+      "status": "modified",
+      "uploaded_sha256": "641911f0b3bd9d2c8398cbbe1afb31448c23dc462a2cf1281251d243f2a883e5",
+      "reviewed_sha256": "6888cb5e197c6193ab164becb3a63b6c689bc773dcf09a9670dae563c89bb737",
+      "change": "Comments/formatting only; parsed expressions identical to uploaded source."
+    },
+    {
+      "path": "Organoid_Bulk_RNAseq/reviewed/03_MUC5AC_qPCR.R",
+      "status": "modified",
+      "uploaded_sha256": "09ac488618c868064bd908562d760c13dd0cf23f8206f301b12be25260953664",
+      "reviewed_sha256": "bff1909efdb90765b4791c83648356cc29618b1bda27c741a2700f865451b663",
+      "change": "Correct exported no-exclusion replicate flags; scientific inputs/models unchanged."
+    },
+    {
+      "path": "Organoid_Bulk_RNAseq/reviewed/04_Concordance.R",
+      "status": "modified",
+      "uploaded_sha256": "9a5e5b33fc79992156946fb2baad322634807e0cdfe8ecf9223a6daba4b9434b",
+      "reviewed_sha256": "e0b63c47b12ac9b679f56b75385953c118fa0cb8afc5b054cc98935e72523fe5",
+      "change": "Comments/formatting only; parsed expressions identical to uploaded source."
+    },
+    {
+      "path": "Organoid_Bulk_RNAseq/reviewed/05_SF5_6C_early_passage_labels.R",
+      "status": "modified",
+      "uploaded_sha256": "472be4222159cfa982a831dc922b54736924bdad9b0b9fde67ea5077856bbe0f",
+      "reviewed_sha256": "28b522e322423ccf62b73f75d3df4ff8a713c34b0a5d8136cc3e539db9a74d40",
+      "change": "Comments/formatting only; parsed expressions identical to uploaded source."
+    },
+    {
+      "path": "README.md",
+      "status": "modified",
+      "uploaded_sha256": "1f5b1371d87cc639d122180d7cf2cc051d0fddd15bd1caff84b745db25cb0e6b",
+      "reviewed_sha256": "33e45aa118307997409fa6ed09d8aa87dcf6993260bc1da7a72516b507606ca3",
+      "change": "Documentation, navigation, run guidance or validation-status update."
+    },
+    {
+      "path": "RELEASE_CHECKLIST.md",
+      "status": "modified",
+      "uploaded_sha256": "fa6588dc030d69bbc038ed6f2d4d5c287110f8dcea638d238d3cca61ffe51bbc",
+      "reviewed_sha256": "347fa189f725d61fe1c397c08f9629f98c4778868204d6c85f88dc24bf5729bc",
+      "change": "Documentation, navigation, run guidance or validation-status update."
+    },
+    {
+      "path": "SCRIPT_INDEX.csv",
+      "status": "modified",
+      "uploaded_sha256": "a71bb89e9c9f804e512a26992daa23d0c5ed1414e51291330c79e0acaccd4578",
+      "reviewed_sha256": "bf4a4a50db9c010655ce342fda07a760fe2b5df955ac0658664e4868fe89eec8",
+      "change": "Regenerated current inventory, provenance or verification evidence."
+    },
+    {
+      "path": "SOFTWARE.md",
+      "status": "modified",
+      "uploaded_sha256": "f1ecefcfd19039e930421151d4f0014e9ef35b4fa397491265c5914da1a27d0b",
+      "reviewed_sha256": "0a292df1c69af70d31abde833b7766037ad225b787bfa88fafa52f07384b6223",
+      "change": "Documentation, navigation, run guidance or validation-status update."
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/README.md",
+      "status": "modified",
+      "uploaded_sha256": "53862826c834030d02a908e11a8336e24105148bf0f49bae8f9a26239ad60b10",
+      "reviewed_sha256": "608b8f096dcce8f0e0ccc448bc944b0817558068a65f3daad23c7106758f2895",
+      "change": "Documentation, navigation, run guidance or validation-status update."
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/010_tissue_pca.R",
+      "status": "modified",
+      "uploaded_sha256": "e36d3bc23563bfebd74f2c08a51a453eee84f1abb9127d858d998ed60e7e71c1",
+      "reviewed_sha256": "2956e85dde75d87ae30f930248ea5328a86d4a81cafcc61626d22599f716aadf",
+      "change": "Comments/formatting only; parsed expressions identical to uploaded source."
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/020_pathway_gsea.R",
+      "status": "modified",
+      "uploaded_sha256": "07e29e342ecf2e1ea5b0e84937f8362a4bf2fbe0ab603f5850267eec868e6f2f",
+      "reviewed_sha256": "5f45f229f69b5929023358231935da8d9cb84899dfb90f91d7d11a2e5aefb865",
+      "change": "Comments/formatting only; parsed expressions identical to uploaded source."
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/030_pathway_figures.R",
+      "status": "modified",
+      "uploaded_sha256": "f4ffa08b5c57d381c0da53ac720fb68476b8eb241a170b133715d141b15de051",
+      "reviewed_sha256": "ab7a2307ecc78b222ce4288d573f57e43129389e2918c606a4b7d7246d61d6e9",
+      "change": "Comments/formatting only; parsed expressions identical to uploaded source."
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/040_gastric_signature_and_scores.R",
+      "status": "modified",
+      "uploaded_sha256": "16199a369401d4b0611e8a1ef8bc7a01ff15bdd5687b657a55562df3b4a31a0c",
+      "reviewed_sha256": "f3136f9f34f5f869c9f9e1f56bfe73163662f727de00b6c1ea5a5af426f24126",
+      "change": "Remove 53 unreachable scoring helpers and their unused prerequisites; retain discovery calculations."
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/045_signature_threshold_sensitivity.R",
+      "status": "modified",
+      "uploaded_sha256": "89e2bfc5ce5fba64c65481aff51bb6160900e63babd02e0e1b126b35d266abf0",
+      "reviewed_sha256": "0c1465925b39af897d89d34e2a7e13e43ecd484a5de569f9bed72f65950e14b3",
+      "change": "Comments/formatting only; parsed expressions identical to uploaded source."
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/050_external_signature_validation.R",
+      "status": "modified",
+      "uploaded_sha256": "274982487bb7b72df9c3c8c3240c1f8363e3ebc5041c2fdd6e4591f03e3dc34f",
+      "reviewed_sha256": "0dc419461cdc78bde8c1a8bc63304a08af562890a83c92413840224ac28e2d5b",
+      "change": "Comments/formatting only; parsed expressions identical to uploaded source."
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/060_bacterial_detection_gsea.R",
+      "status": "modified",
+      "uploaded_sha256": "cf98548a2935f1b8af8ca5c837851b0089ed1123fcd33642bbc9ae9d7d85a53d",
+      "reviewed_sha256": "1b094ccd32a48a509bb18974630a34b9036b3a46dc2c652ac130829f648c92dc",
+      "change": "Comments/formatting only; parsed expressions identical to uploaded source."
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/065_braf_overall_gsea.R",
+      "status": "modified",
+      "uploaded_sha256": "2ea1b68b8caeb1c42c1d1841f24a0282b8092c2cedb025f9d027fd7667218687",
+      "reviewed_sha256": "44c60ef85e3fa7027a2038a4ba2ca5cc866ffdede16f4818b0322e3f12760c10",
+      "change": "Comments/formatting only; parsed expressions identical to uploaded source."
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/070_braf_es_gsea.R",
+      "status": "modified",
+      "uploaded_sha256": "3efab6b5ef29c431aaf27be90fea2a8a02874bebe8e5ed9fd1832cd1e123b27d",
+      "reviewed_sha256": "3bef3c07f15fd5608b1eb7005da698ca648f2b20b258b393468c1203f42811c9",
+      "change": "Comments/formatting only; parsed expressions identical to uploaded source."
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/080_tissue_MUC5AC_qPCR.R",
+      "status": "modified",
+      "uploaded_sha256": "9d65c67f2d0441a803c217ae93a870ff34249e914a1c72b30656b7b588a7550c",
+      "reviewed_sha256": "7c14372c117585c5688c28a5b7cd9019683523c2f5d1622ea0435811eac02cc4",
+      "change": "Comments/formatting only; parsed expressions identical to uploaded source."
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/090_complete_score_analysis.R",
+      "status": "modified",
+      "uploaded_sha256": "6c63b8e7f6109c321a14accf5a82962f603e94f346122af062b14591ae9ac687",
+      "reviewed_sha256": "da32d1a22ff69bd19efbec8a295ad8e673cb305af2361a4aaee6267e0da7ceda",
+      "change": "Comments/formatting only; parsed expressions identical to uploaded source."
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/110_clinical_host_scores.R",
+      "status": "modified",
+      "uploaded_sha256": "4bb2e436f7cc5cc75c19f84c71c830471e59888fd4194e2a45de6dde9a7d8f8c",
+      "reviewed_sha256": "61458be2272610e86089847122bb3623f391f60c4f6ee162246637384a4d88dc",
+      "change": "Comments/formatting only; parsed expressions identical to uploaded source."
+    },
+    {
+      "path": "Tissue_Bulk_RNAseq/scripts/115_braf_status_figure.R",
+      "status": "modified",
+      "uploaded_sha256": "cdb54042124c896bd2dc79249fd575cc30d709b538fe59b3b82e8047f5ba89af",
+      "reviewed_sha256": "91d52fcec7b5708a029db7fe694bd9ad80cd2f34fd560c98757179ba77142f49",
+      "change": "Comments/formatting only; parsed expressions identical to uploaded source."
+    },
+    {
+      "path": "tools/check_reporting_logic.R",
+      "status": "added",
+      "uploaded_sha256": null,
+      "reviewed_sha256": "2dd2ffdeac8e815a81627cecf9dec201ece0ac9273687604f72f3d04d6d786a9",
+      "change": "Add reproducible base-R tests of actual reporting and metadata source expressions."
+    },
+    {
+      "path": "tools/check_shell_guards.py",
+      "status": "added",
+      "uploaded_sha256": null,
+      "reviewed_sha256": "49d52d2ebea4a0e55078aae59618e0e2b3bf8bff506fa5d9936eafdd65a83466",
+      "change": "Add shell syntax and temporary-fixture checks; no cluster jobs."
+    },
+    {
+      "path": "upstream_provenance/README.md",
+      "status": "modified",
+      "uploaded_sha256": "0d54d70d876e57fc1065a190424109203c0506a602c12d704af468b69c140d7a",
+      "reviewed_sha256": "4ae398cd51e389a36c3a61c516abd6728b0ec450c35a91c461c104963daf7542",
+      "change": "Documentation, navigation, run guidance or validation-status update."
+    },
+    {
+      "path": "upstream_provenance/read_processing/launch_check_strandedness.sh",
+      "status": "modified",
+      "uploaded_sha256": "f5e3fd996669cdebc29efef029e56d08f0e0ae48dc27a7ba715e31b96cbd1d6a",
+      "reviewed_sha256": "64123e75b40ec1b2190502554c2275e756bbcc4432c7d6d1dfd8012591d7cddc",
+      "change": "Preserve existing directories, propagate logging failures, handle zero queued jobs and consume header input."
+    },
+    {
+      "path": "upstream_provenance/read_processing/launch_trim_map_assign.sh",
+      "status": "modified",
+      "uploaded_sha256": "b7cf742c905211b77f1215d2c812d3b74e58691d62c43d9074916ea500020e02",
+      "reviewed_sha256": "40140fe0e140ed53bf14fb47b66697704dfd179b6b32f26e92048b7bbe66f0b0",
+      "change": "Preserve existing directories, propagate logging failures and handle zero queued jobs."
+    },
+    {
+      "path": "upstream_provenance/read_processing/trim_map_assign.sh",
+      "status": "modified",
+      "uploaded_sha256": "f3678dd08fa83507d28a7561cb7412ce6de36813cb625e7ea324c4e8481f238e",
+      "reviewed_sha256": "37e2e5a58fd7fce89e9f03051ec3fb42f40b85d3ec395dbcb6b6db4d541d70eb",
+      "change": "Fix shell test for STRANDEDNESS=0 and replace conversational comment."
+    },
+    {
+      "path": "verification/STATUS.md",
+      "status": "modified",
+      "uploaded_sha256": "f65c3c173d995ad723bc2291d8b6f0baf3fb8e9243142eaf4d00a9779d92a23c",
+      "reviewed_sha256": "7c4f7c20259dda84f08fd7fc7cac2f0a22e5da35247281c7a4df77bc67de4553",
+      "change": "Documentation, navigation, run guidance or validation-status update."
+    },
+    {
+      "path": "verification/current_packaging_checks.json",
+      "status": "modified",
+      "uploaded_sha256": "3dc39df54d030f177394322718e91d29a9655570478dbb8c363503178ea557a6",
+      "reviewed_sha256": "9f30b656e9c3ebb12bd2d3321413022d552e1706bda3227e37f5b255342370af",
+      "change": "Regenerated current inventory, provenance or verification evidence."
+    },
+    {
+      "path": "verification/historical/packaging_checks_20261026_before_review.json",
+      "status": "added",
+      "uploaded_sha256": null,
+      "reviewed_sha256": "3dc39df54d030f177394322718e91d29a9655570478dbb8c363503178ea557a6",
+      "change": "Preserved earlier verification record with explicit historical filename."
+    },
+    {
+      "path": "verification/historical/r_parse_and_self_test_20261026_before_review.json",
+      "status": "added",
+      "uploaded_sha256": null,
+      "reviewed_sha256": "d82ee7f47fff83c5b037580006a76f35c94ecdb040e9266b0eefdc7a2a9451e5",
+      "change": "Preserved earlier verification record with explicit historical filename."
+    },
+    {
+      "path": "verification/package_references.csv",
+      "status": "modified",
+      "uploaded_sha256": "8ab253ae2d31cc6b378ca888c34e950b1778d68cd3cee18224c928151b9951ff",
+      "reviewed_sha256": "efd49ac74a65b817323c04b314b34dd815ed7d74c6c6bf22560b219e48be6b98",
+      "change": "Regenerated current inventory, provenance or verification evidence."
+    },
+    {
+      "path": "verification/r_parse_and_self_test_20261026.json",
+      "status": "modified",
+      "uploaded_sha256": "d82ee7f47fff83c5b037580006a76f35c94ecdb040e9266b0eefdc7a2a9451e5",
+      "reviewed_sha256": "d0fea999a779e191d64ecea9f6eb4d36d2d16bfa5b9c970fb151448e399f427c",
+      "change": "Regenerated current inventory, provenance or verification evidence."
+    },
+    {
+      "path": "verification/shell_review_checks_20261026.json",
+      "status": "added",
+      "uploaded_sha256": null,
+      "reviewed_sha256": "66b352e678d79668517e08170406e15152bb8469bb0550f594ba469696cc3c95",
+      "change": "Regenerated current inventory, provenance or verification evidence."
+    },
+    {
+      "path": "verification/tissue_040_cleanup_20261026.json",
+      "status": "added",
+      "uploaded_sha256": null,
+      "reviewed_sha256": "eee78b72b862d32fc0275a1e02b85c8fe7004e77f7791eddad89c266b60e362d",
+      "change": "Regenerated current inventory, provenance or verification evidence."
+    }
+  ]
+}

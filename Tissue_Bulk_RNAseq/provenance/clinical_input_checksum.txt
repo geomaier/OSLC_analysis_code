@@ -1,0 +1,3 @@
+MASTER_METADATA_CH4.csv
+MD5 0798e37662bc8e3e065d11a64391174e
+The second supplied CSV has identical parsed values but different byte serialization.

@@ -1,0 +1,7 @@
+package,version
+R,4.5.0
+fgsea,1.34.2
+msigdbr,25.1.1
+data.table,1.17.0
+dplyr,1.1.4
+ggplot2,4.0.0

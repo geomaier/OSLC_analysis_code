@@ -1,0 +1,30 @@
+{
+  "source_score": "clustered_spearman_final/deliverables/OSLC_complete_score_analysis.R",
+  "source_score_sha256": "de2b6e8bd4e31d0c0634f77781a822e821c82fb25bad28ccdd0d8d8cce120023",
+  "source_pcr": "muc5ac_patient_rerun/deliverables/MUC5AC_patient_aware_rerun.R",
+  "source_pcr_sha256": "37a80aac6fbacfee2a7d85ed3081c604b4504f1de14fe3be384dacd3dddf6084",
+  "private_score_inputs": [
+    "score_csv",
+    "original_singscore_csv",
+    "score_coverage_csv",
+    "metadata_csv",
+    "master_csv",
+    "ifna_filter_csv",
+    "inflam_filter_csv",
+    "tnf_filter_csv",
+    "reference_alpha_csv",
+    "reference_gastric_csv"
+  ],
+  "private_pcr_inputs": [
+    "snapshot_csv"
+  ],
+  "changes": [
+    "Externalised embedded patient-level data",
+    "Retained primary mixed-model inference and patient-bootstrap correlations",
+    "Removed declined covariance sensitivity from the new score and tissue qPCR entry points",
+    "Made organoid paths configurable",
+    "Made signature discovery stop before superseded score tests",
+    "Selected completed beta pipeline as final entry point",
+    "Restored recorded 16S metadata name correction in example config"
+  ]
+}

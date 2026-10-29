@@ -1,0 +1,83 @@
+[
+  {
+    "reviewed": "01_Organoid_RNAseq.R",
+    "original": "Chapter5_Organoid_FINAL_Serrated_Lesion_Gastric_Metaplasia_FIXED_slice(2).R",
+    "source_sha256": "79b71d832720a13805a124c4e959f3deb76d83db19b1df242f49786231275b74",
+    "reviewed_sha256": "405ab93023235ac692ee95585649d56f5a23a68159b1d38a9c38ed4cdf927fd7",
+    "source_path": "upload/Chapter5_Organoid_FINAL_Serrated_Lesion_Gastric_Metaplasia_FIXED_slice(2).R",
+    "changes": [
+      {
+        "old": "\ninstall_missing_packages <- TRUE\n",
+        "new": "\ninstall_missing_packages <- FALSE\n"
+      },
+      {
+        "old": "\noverwrite_existing_outputs <- TRUE\n",
+        "new": "\noverwrite_existing_outputs <- FALSE\n"
+      },
+      {
+        "old": "out_dir <- file.path(base_dir, \"Ch5_Organoid_FINAL\")",
+        "new": "out_dir <- review_output_dir(file.path(base_dir, \"Ch5_Organoid_FINAL\"))"
+      }
+    ]
+  },
+  {
+    "reviewed": "02_Passage_GSEA.R",
+    "original": "M26F_Passage_Analysis_Final(1).R",
+    "source_sha256": "3ae8d1a9a4be7b2b91a9667496c9dd4cfe694391a9db1a58920f18a810c167c2",
+    "reviewed_sha256": "49b224570c383e4f54d5046ca5de5d618c3e58243a0d8f261668ccefe278aca1",
+    "source_path": "upload/M26F_Passage_Analysis_Final(1).R",
+    "changes": [
+      {
+        "old": "DATA_DIR_OVERRIDE <- NA_character_",
+        "new": "DATA_DIR_OVERRIDE <- \"<historical local passage input directory>\"",
+        "path_redaction_note": "The original personal Windows path was removed for public release; this is a historical record, not executable configuration."
+      },
+      {
+        "old": "OUTPUT_DIR <- file.path(\n  DATA_DIR,\n  \"Final_24_gene_gastric_metaplasia_GSEA_THESIS_FINAL\"\n)",
+        "new": "OUTPUT_DIR <- review_output_dir(file.path(\n  DATA_DIR,\n  \"Final_24_gene_gastric_metaplasia_GSEA_THESIS_FINAL\"\n))"
+      }
+    ]
+  },
+  {
+    "reviewed": "03_MUC5AC_qPCR.R",
+    "original": "M26F_MUC5AC_Organoids_Final_Analysis.R",
+    "source_sha256": "a0461ddb4d62fde8cd64791b553ec40c541b045ce23ac71209ed87552869b8d0",
+    "reviewed_sha256": "e20ab11ae56b03ea4f27e51f23def9598909bc26e2d74c9e87254b19d5207fcf",
+    "source_path": "organoid_audit/saved/Final MUC5AC Analysis/M26F_MUC5AC_Organoids_Final_Analysis.R",
+    "changes": [
+      {
+        "old": "\ninstall_missing_packages <- TRUE\n",
+        "new": "\ninstall_missing_packages <- FALSE\n"
+      },
+      {
+        "old": "\noverwrite_existing_outputs <- TRUE\n",
+        "new": "\noverwrite_existing_outputs <- FALSE\n"
+      },
+      {
+        "old": "output_dir <- file.path(base_dir, \"MUC5AC_Organoids_Final_Analysis_Aug26\")",
+        "new": "output_dir <- review_output_dir(file.path(base_dir, \"MUC5AC_Organoids_Final_Analysis_Aug26\"))"
+      },
+      {
+        "old": "file.path(base_dir, \"Organoids_MUC5AC_ANALYSIS_CLEANED_VALID_ROWS.csv\")",
+        "new": "file.path(output_dir, \"Organoids_MUC5AC_ANALYSIS_CLEANED_VALID_ROWS.csv\")"
+      }
+    ]
+  },
+  {
+    "reviewed": "04_Concordance.R",
+    "original": "M26F_DE_PATHWAY_GENE_CONCORDANCE_FINAL_WITH_CH5_FIGURE(2).R",
+    "source_sha256": "dc13f1192f6e46da01ea08e370852714fc9ae418566d8ed90f13f2ffbb4e514c",
+    "reviewed_sha256": "f2514fe70d13041f1d6f1a0ce6dc0f430716e68b30d71eba6fcdab2caf954846",
+    "source_path": "organoid_preflight/sources/Thesis/M26F_DE_PATHWAY_GENE_CONCORDANCE_FINAL_WITH_CH5_FIGURE(2).R",
+    "changes": [
+      {
+        "old": "\noverwrite_existing_outputs <- TRUE\n",
+        "new": "\noverwrite_existing_outputs <- FALSE\n"
+      },
+      {
+        "old": "overwrite_existing_outputs <- FALSE",
+        "new": "out_dir <- review_output_dir(out_dir)\n\noverwrite_existing_outputs <- FALSE"
+      }
+    ]
+  }
+]

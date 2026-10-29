@@ -1,0 +1,84 @@
+{
+  "prepared": "2026-10-19",
+  "R_available": false,
+  "R_parse_performed": false,
+  "R_statistical_execution_performed": false,
+  "R_files_lexically_checked": 52,
+  "lexical_failures": [],
+  "shell_syntax": [
+    {
+      "path": "upstream_provenance/read_processing/check_strandedness.sh",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "path": "upstream_provenance/read_processing/collate_featureCounts.sh",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "path": "upstream_provenance/read_processing/collate_picard.sh",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "path": "upstream_provenance/read_processing/launch_check_strandedness.sh",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "path": "upstream_provenance/read_processing/launch_tma_collate.sh",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "path": "upstream_provenance/read_processing/launch_trim_map_assign.sh",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "path": "upstream_provenance/read_processing/trim_map_assign.sh",
+      "exit_code": 0,
+      "stderr": ""
+    }
+  ],
+  "current_beta_named_function_bodies_unchanged": true,
+  "clinical_code_after_original_cohort_check_byte_identical": true,
+  "alpha_code_from_original_cohort_checks_onward_byte_identical": true,
+  "private_alpha_original_input_and_old_result_text_identical_to_saved_csvs": true,
+  "private_clinical_validation_ages_match_63_row_corrected_master": true,
+  "earlier_sources_function_comparisons": [
+    {
+      "release_path": "16S/scripts/175_matched_analysis.R",
+      "shared_named_functions": 49,
+      "different_function_names": [],
+      "note": "Comparison ignores whitespace and comments; whole scripts also differ in setup/output paths."
+    },
+    {
+      "release_path": "16S/scripts/161_genus_ancombc2.R",
+      "shared_named_functions": 13,
+      "different_function_names": [],
+      "note": "Comparison ignores whitespace and comments; whole scripts also differ in setup/output paths."
+    },
+    {
+      "release_path": "16S/scripts/180_supplementary_mixed_models.R",
+      "shared_named_functions": 23,
+      "different_function_names": [],
+      "note": "Comparison ignores whitespace and comments; whole scripts also differ in setup/output paths."
+    }
+  ],
+  "pending": [
+    "Execute corrected alpha-age models and inspect output",
+    "R parse/execution check of exact public packaging",
+    "Current v7 beta figure rendering",
+    "HPA release and source/access-date account",
+    "Redistribution/licence and citation metadata",
+    "Actual GitHub release and archive DOI"
+  ],
+  "private_alpha_age_key_checked_against_current_Methods": {
+    "matched": 64,
+    "changed_from_old_input": 43
+  },
+  "targeted_private_data_scan": "Individual age/clinical input tables externalised; no DOB fields or recognised credential patterns found. Analysis identifiers and reference gene lists remain.",
+  "other_R_files_unchanged_from_base_bundle": 42
+}
